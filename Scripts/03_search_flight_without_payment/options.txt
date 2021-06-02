@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\plato\Desktop\LRHomeWork1\Scripts\03_search_flight_without_payment
+-ID:\Program Files (x86)\include
+-ec:\users\plato\desktop\lrhomework1\scripts\03_search_flight_without_payment\\logfile.log
+c:\users\plato\desktop\lrhomework1\scripts\03_search_flight_without_payment\\combined_03_search_flight_without_payment.c
+c:\users\plato\desktop\lrhomework1\scripts\03_search_flight_without_payment\\pre_cci.c

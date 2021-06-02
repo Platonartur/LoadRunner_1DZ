@@ -1,0 +1,590 @@
+[API Trapper      (3b9c:4080)] Recording in 32-bit mode: D:\Program Files (x86)\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer ( dd8:4ccc)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( dd8:4ccc)] Load Network Traffic Analyzers:
+[Network Analyzer ( dd8:4ccc)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( dd8:4ccc)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( dd8:4ccc)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( dd8:4ccc)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( dd8:4ccc)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer ( dd8:4ccc)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( dd8:4ccc)] ------------------------------------------------------------------------------------------
+[Proxy Recording  ( dd8:4ccc)] Started proxy on port 8888 listening IP 192.168.176.1, 127.0.0.1, in synchronous mode
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14333
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14334
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14335
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14336
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14337
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14338
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14339
+[Proxy Recording  ( dd8:1464)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=90 ...
+[Proxy Recording  ( dd8:1464)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=90 ...
+[Proxy Recording  ( dd8:1464)] Received response of 300 header and 0 body bytes from https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=90
+[Proxy Recording  ( dd8:4270)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Web Request      ( dd8:1464)] "GET https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=90"   
+[Network Analyzer ( dd8:1464)]   (Sid:  1) Client -> Server @ : 482 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( dd8:1464)]   (Sid:  1) Server -> Client : 327 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( dd8:1464)] Sent 0 bytes to client @ 192.168.176.1:14333
+[Proxy Recording  ( dd8:4270)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Proxy Recording  ( dd8:4270)] Received response of 1538 header and 197 body bytes from https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+[Network Analyzer ( dd8:4270)]   (Sid:  2) Client -> Server @ : 2156 bytes (SSL)(Service=HTTP)
+[Web Request      ( dd8:4270)] "POST https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer ( dd8:4270)]   (Sid:  2) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( dd8:4270)]   (Sid:  2) Server -> Client : 1527 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( dd8:4270)]   (Sid:  2) Server -> Client : 197 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( dd8:4270)] Sent 197 bytes to client @ 192.168.176.1:14334
+[Proxy Recording  ( dd8:461c)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  ( dd8:461c)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  ( dd8:461c)] Received response of 587 header and 968 body bytes from https://www.googleapis.com:443/oauth2/v4/token
+[Network Analyzer ( dd8:461c)]   (Sid:  3) Client -> Server @ : 465 bytes (SSL)(Service=HTTP)
+[Web Request      ( dd8:461c)] "POST https://www.googleapis.com/oauth2/v4/token"   
+[Network Analyzer ( dd8:461c)]   (Sid:  3) Client -> Server @ : 230 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( dd8:461c)]   (Sid:  3) Server -> Client : 576 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( dd8:461c)]   (Sid:  3) Server -> Client : 968 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( dd8:461c)] Sent 968 bytes to client @ 192.168.176.1:14335
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14347
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  ( dd8: 554)] Trying to connect to https://www.google.com:443/async/newtab_promos ...
+[Proxy Recording  ( dd8: 554)] Trying to connect to https://www.google.com:443/async/newtab_promos ...
+[Proxy Recording  ( dd8:1c38)] Trying to connect to https://www.google.com:443/async/newtab_ogb?hl=ru&async=fixed:0 ...
+[Proxy Recording  ( dd8:1c38)] Trying to connect to https://www.google.com:443/async/newtab_ogb?hl=ru&async=fixed:0 ...
+[Proxy Recording  ( dd8:271c)] Received response of 587 header and 354 body bytes from https://www.googleapis.com:443/oauth2/v4/token
+[Network Analyzer ( dd8:271c)]   (Sid:  4) Client -> Server @ : 441 bytes (SSL)(Service=HTTP)
+[Web Request      ( dd8:271c)] "POST https://www.googleapis.com/oauth2/v4/token"   
+[Network Analyzer ( dd8:271c)]   (Sid:  4) Client -> Server @ : 279 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( dd8:271c)]   (Sid:  4) Server -> Client : 576 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( dd8:271c)]   (Sid:  4) Server -> Client : 354 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( dd8:271c)] Sent 354 bytes to client @ 192.168.176.1:14337
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14353
+[Proxy Recording  ( dd8: 554)] Received response of 792 header and 47 body bytes from https://www.google.com:443/async/newtab_promos
+[Web Request      ( dd8: 554)] "GET https://www.google.com/async/newtab_promos"   
+[Network Analyzer ( dd8: 554)]   (Sid:  5) Client -> Server @ : 947 bytes (SSL)(Service=HTTP)
+[Proxy Recording  ( dd8:1c38)] Received response of 837 header and 44283 body bytes from https://www.google.com:443/async/newtab_ogb?hl=ru&async=fixed:0
+[Network Analyzer ( dd8: 554)]   (Sid:  5) Server -> Client : 781 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( dd8: 554)]   (Sid:  5) Server -> Client : 47 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( dd8: 554)] Sent 47 bytes to client @ 192.168.176.1:14338
+[Web Request      ( dd8:1c38)] "GET https://www.google.com/async/newtab_ogb?hl=ru&async=fixed:0"   
+[Network Analyzer ( dd8:1c38)]   (Sid:  6) Client -> Server @ : 1081 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( dd8:1c38)]   (Sid:  6) Server -> Client : 826 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( dd8:1c38)]   (Sid:  6) Server -> Client : 44283 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( dd8:1c38)] Sent 44283 bytes to client @ 192.168.176.1:14336
+[Proxy Recording  ( dd8:4270)] Trying to connect to https://oauthaccountmanager.googleapis.com:443/v1/issuetoken ...
+[Proxy Recording  ( dd8:4270)] Trying to connect to https://oauthaccountmanager.googleapis.com:443/v1/issuetoken ...
+[Proxy Recording  ( dd8:4270)] Received response of 564 header and 452 body bytes from https://oauthaccountmanager.googleapis.com:443/v1/issuetoken
+[Network Analyzer ( dd8:4270)]   (Sid:  7) Client -> Server @ : 786 bytes (SSL)(Service=HTTP)
+[Web Request      ( dd8:4270)] "POST https://oauthaccountmanager.googleapis.com/v1/issuetoken"   
+[Network Analyzer ( dd8:4270)]   (Sid:  7) Client -> Server @ : 534 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( dd8:4270)]   (Sid:  7) Server -> Client : 553 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( dd8:4270)]   (Sid:  7) Server -> Client : 452 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( dd8:4270)] Sent 452 bytes to client @ 192.168.176.1:14347
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14356
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14357
+[Proxy Recording  ( dd8:461c)] Trying to connect to http://qeiavwopg/ ...
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14358
+[Proxy Recording  ( dd8:271c)] Trying to connect to http://iboxwcpzia/ ...
+[Proxy Recording  ( dd8:461c)] Trying to connect to http://qeiavwopg/ ...
+[Proxy Recording  ( dd8:1464)] Trying to connect to http://equhlxznhgmeptx/ ...
+[Proxy Recording  ( dd8:271c)] Trying to connect to http://iboxwcpzia/ ...
+[Proxy Recording  ( dd8:1464)] Trying to connect to http://equhlxznhgmeptx/ ...
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14360
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D ...
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D ...
+[Proxy Recording  ( dd8:1bc0)] Received response of 698 header and 1586 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D
+[Network Analyzer ( dd8:1bc0)]   (Sid:  8) Client -> Server @ : 1004 bytes (SSL)(Service=HTTP)
+[Web Request      ( dd8:1bc0)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D"   
+[Network Analyzer ( dd8:1bc0)]   (Sid:  8) Client -> Server @ : 1506 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( dd8:1bc0)]   (Sid:  8) Server -> Client : 687 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( dd8:1bc0)]   (Sid:  8) Server -> Client : 1586 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( dd8:1bc0)] Sent 1586 bytes to client @ 192.168.176.1:14353
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14362
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14363
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14364
+[Proxy Recording  ( dd8:1c38)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D ...
+[Proxy Recording  ( dd8:1c38)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D ...
+[Proxy Recording  ( dd8:1c38)] Received response of 698 header and 467 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D
+[Network Analyzer ( dd8:1c38)]   (Sid:  9) Client -> Server @ : 980 bytes (SSL)(Service=HTTP)
+[Web Request      ( dd8:1c38)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D"   
+[Network Analyzer ( dd8:1c38)]   (Sid:  9) Client -> Server @ : 1055 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( dd8:1c38)]   (Sid:  9) Server -> Client : 687 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( dd8:1c38)]   (Sid:  9) Server -> Client : 467 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( dd8:1c38)] Sent 467 bytes to client @ 192.168.176.1:14362
+[Proxy Recording  ( dd8: 554)] Trying to connect to https://ogs.google.com:443/u/0/widget/app?bc=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=ru&dm= ...
+[Proxy Recording  ( dd8: 554)] Trying to connect to https://ogs.google.com:443/u/0/widget/app?bc=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=ru&dm= ...
+[Proxy Recording  ( dd8: 554)] Received response of 1535 header and 15233 body bytes from https://ogs.google.com:443/u/0/widget/app?bc=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=ru&dm=
+[Web Request      ( dd8: 554)] "GET https://ogs.google.com/u/0/widget/app?bc=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=ru&dm="   
+[Network Analyzer ( dd8: 554)]   (Sid: 10) Client -> Server @ : 1931 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( dd8: 554)]   (Sid: 10) Server -> Client : 1524 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( dd8: 554)]   (Sid: 10) Server -> Client : 15233 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( dd8: 554)] Sent 15233 bytes to client @ 192.168.176.1:14360
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14368
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14369
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14370
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14371
+[User action                 ] StartTransactionEvent link [Proxy Recording.Error ( dd8:1464)] Failed to connect to server http://equhlxznhgmeptx/.
+Message=NameResolutionFailure, status=Невозможно разрешить удаленное имя: 'equhlxznhgmeptx'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording.Error ( dd8:271c)] Failed to connect to server http://iboxwcpzia/.
+Message=NameResolutionFailure, status=Невозможно разрешить удаленное имя: 'iboxwcpzia'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=10:1863515205&cup2hreq=e776bfe16c56dac31b52bb44c2ba9a3e52d0ddb2164ad09205f2ec4d93f3f43c ...
+[Proxy Recording.Error ( dd8:461c)] Failed to connect to server http://qeiavwopg/.
+Message=NameResolutionFailure, status=Невозможно разрешить удаленное имя: 'qeiavwopg'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=10:1863515205&cup2hreq=e776bfe16c56dac31b52bb44c2ba9a3e52d0ddb2164ad09205f2ec4d93f3f43c ...
+[Proxy Recording  ( dd8:1bc0)] Received response of 1252 header and 648 body bytes from https://update.googleapis.com:443/service/update2/json?cup2key=10:1863515205&cup2hreq=e776bfe16c56dac31b52bb44c2ba9a3e52d0ddb2164ad09205f2ec4d93f3f43c
+[Network Analyzer ( dd8:1bc0)]   (Sid: 11) Client -> Server @ : 1286 bytes (SSL)(Service=HTTP)
+[Web Request      ( dd8:1bc0)] "POST https://update.googleapis.com/service/update2/json?cup2key=10:1863515205&cup2hreq=e776bfe16c56dac31b52bb44c2ba9a3e52d0ddb2164ad09205f2ec4d93f3f43c"   
+[Network Analyzer ( dd8:1bc0)]   (Sid: 11) Client -> Server @ : 6598 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( dd8:1bc0)]   (Sid: 11) Server -> Client : 1241 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( dd8:1bc0)]   (Sid: 11) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( dd8:1bc0)] Sent 648 bytes to client @ 192.168.176.1:14364
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14374
+[Proxy Recording  ( dd8:251c)] Trying to connect to https://www.google.com:443/complete/search?client=chrome-omni&gs_ri=chrome-ext-ansg&xssi=t&q=&oit=0&gs_rn=42&sugkey=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  ( dd8:251c)] Trying to connect to https://www.google.com:443/complete/search?client=chrome-omni&gs_ri=chrome-ext-ansg&xssi=t&q=&oit=0&gs_rn=42&sugkey=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  ( dd8:251c)] Received response of 792 header and 122 body bytes from https://www.google.com:443/complete/search?client=chrome-omni&gs_ri=chrome-ext-ansg&xssi=t&q=&oit=0&gs_rn=42&sugkey=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+[Web Request      ( dd8:251c)] "GET https://www.google.com/complete/search?client=chrome-omni&gs_ri=chrome-ext-ansg&xssi=t&q=&oit=0&gs_rn=42&sugkey=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer ( dd8:251c)]   (Sid: 12) Client -> Server @ : 1143 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( dd8:251c)]   (Sid: 12) Server -> Client : 781 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( dd8:251c)]   (Sid: 12) Server -> Client : 122 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( dd8:251c)] Sent 122 bytes to client @ 192.168.176.1:14339
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14376
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14377
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14378
+[Proxy Recording  ( dd8:251c)] Trying to connect to http://192.168.176.1:1080/cgi-bin/welcome.pl?signOff=true ...
+[Proxy Recording  ( dd8:251c)] Trying to connect to http://192.168.176.1:1080/cgi-bin/welcome.pl?signOff=true ...
+[Proxy Recording  ( dd8:251c)] Received response of 298 header and 686 body bytes from http://192.168.176.1:1080/cgi-bin/welcome.pl?signOff=true
+[Web Request      ( dd8:251c)] "GET http://192.168.176.1:1080/cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer ( dd8:251c)]   (Sid: 13) Client -> Server @ : 731 bytes (Service=HTTP)
+[Network Analyzer ( dd8:251c)]   (Sid: 13) Server -> Client : 287 bytes  (Service=HTTP)
+[Network Analyzer ( dd8:251c)]   (Sid: 13) Server -> Client : 686 bytes  (Service=HTTP)
+[Proxy Recording  ( dd8:251c)] Sent 686 bytes to client @ 192.168.176.1:14377
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to http://192.168.176.1:1080/cgi-bin/nav.pl?in=home ...
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to http://192.168.176.1:1080/cgi-bin/nav.pl?in=home ...
+[Proxy Recording  ( dd8:1bc0)] Received response of 183 header and 1490 body bytes from http://192.168.176.1:1080/cgi-bin/nav.pl?in=home
+[Web Request      ( dd8:1bc0)] "GET http://192.168.176.1:1080/cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( dd8:1bc0)]   (Sid: 14) Client -> Server @ : 585 bytes (Service=HTTP)
+[Network Analyzer ( dd8:1bc0)]   (Sid: 14) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer ( dd8:1bc0)]   (Sid: 14) Server -> Client : 1490 bytes  (Service=HTTP)
+[Proxy Recording  ( dd8:1bc0)] Sent 1490 bytes to client @ 192.168.176.1:14378
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14380
+[Proxy Recording  ( dd8:251c)] Trying to connect to http://192.168.176.1:1080/favicon.ico ...
+[Proxy Recording  ( dd8:251c)] Trying to connect to http://192.168.176.1:1080/favicon.ico ...
+[Proxy Recording.Error ( dd8:251c)] Failed to connect to server http://192.168.176.1:1080/favicon.ico.
+Message=ProtocolError, status=Удаленный сервер возвратил ошибку: (404) Не найден.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  ( dd8:251c)] Received response of 136 header and 209 body bytes from http://192.168.176.1:1080/favicon.ico
+[Web Request      ( dd8:251c)] "GET http://192.168.176.1:1080/favicon.ico"   
+[Network Analyzer ( dd8:251c)]   (Sid: 15) Client -> Server @ : 451 bytes (Service=HTTP)
+[Network Analyzer ( dd8:251c)]   (Sid: 15) Server -> Client : 160 bytes  (Service=HTTP)
+[Network Analyzer ( dd8:251c)]   (Sid: 15) Server -> Client : 209 bytes  (Service=HTTP)
+[Proxy Recording  ( dd8:251c)] Sent 209 bytes to client @ 192.168.176.1:14380
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://ssl.gstatic.com:443/docs/common/cleardot.gif?zx=woklsv7bxw4u ...
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://ssl.gstatic.com:443/docs/common/cleardot.gif?zx=woklsv7bxw4u ...
+[Proxy Recording  ( dd8:1464)] Trying to connect to https://play.google.com:443/log?format=json&hasfast=true&authuser=0 ...
+[Proxy Recording  ( dd8:1464)] Trying to connect to https://play.google.com:443/log?format=json&hasfast=true&authuser=0 ...
+[Proxy Recording  ( dd8:271c)] Received response of 537 header and 43 body bytes from https://ssl.gstatic.com:443/docs/common/cleardot.gif?zx=woklsv7bxw4u
+[Proxy Recording  ( dd8:271c)] Sent 43 bytes to client @ 192.168.176.1:14376
+[Proxy Recording  ( dd8:1464)] Received response of 614 header and 0 body bytes from https://play.google.com:443/log?format=json&hasfast=true&authuser=0
+[Web Request      ( dd8:1464)] "OPTIONS https://play.google.com/log?format=json&hasfast=true&authuser=0"   
+[Network Analyzer ( dd8:1464)]   (Sid: 16) Client -> Server @ : 597 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( dd8:1464)]   (Sid: 16) Server -> Client : 631 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( dd8:1464)] Sent 0 bytes to client @ 192.168.176.1:14371
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14386
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D ...
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D ...
+[Proxy Recording  ( dd8:1bc0)] Received response of 698 header and 1038 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D
+[Network Analyzer ( dd8:1bc0)]   (Sid: 17) Client -> Server @ : 980 bytes (SSL)(Service=HTTP)
+[Web Request      ( dd8:1bc0)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D"   
+[Network Analyzer ( dd8:1bc0)]   (Sid: 17) Client -> Server @ : 1146 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( dd8:1bc0)]   (Sid: 17) Server -> Client : 687 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( dd8:1bc0)]   (Sid: 17) Server -> Client : 1038 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( dd8:1bc0)] Sent 1038 bytes to client @ 192.168.176.1:14386
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14388
+[Proxy Recording  ( dd8:1464)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D ...
+[Proxy Recording  ( dd8:1464)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D ...
+[Proxy Recording  ( dd8:1464)] Received response of 698 header and 467 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D
+[Network Analyzer ( dd8:1464)]   (Sid: 18) Client -> Server @ : 980 bytes (SSL)(Service=HTTP)
+[Web Request      ( dd8:1464)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D"   
+[Network Analyzer ( dd8:1464)]   (Sid: 18) Client -> Server @ : 1224 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( dd8:1464)]   (Sid: 18) Server -> Client : 687 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( dd8:1464)]   (Sid: 18) Server -> Client : 467 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( dd8:1464)] Sent 467 bytes to client @ 192.168.176.1:14388
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14390
+[User action                 ] EndTransactionEvent link [Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14391
+[Proxy Recording  ( dd8:251c)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=h93FFF0ZBatSbOuq8rcGs7HpJaMc_4XaKSQO5E3CFTY&VER=8&RID=rpc&SID=483D17AD37106629&CI=0&AID=245&TYPE=xmlhttp&zx=k4605kzpe3&t=1 ...
+[Proxy Recording  ( dd8:251c)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=h93FFF0ZBatSbOuq8rcGs7HpJaMc_4XaKSQO5E3CFTY&VER=8&RID=rpc&SID=483D17AD37106629&CI=0&AID=245&TYPE=xmlhttp&zx=k4605kzpe3&t=1 ...
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14394
+[Proxy Recording  ( dd8:271c)] Trying to connect to http://x1.c.lencr.org/ ...
+[Proxy Recording  ( dd8:271c)] Trying to connect to http://x1.c.lencr.org/ ...
+[Proxy Recording  ( dd8:271c)] Received response of 236 header and 0 body bytes from http://x1.c.lencr.org/
+[Proxy Recording  ( dd8:271c)] Sent 0 bytes to client @ 192.168.176.1:14394
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14396
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to http://crl.identrust.com/DSTROOTCAX3CRL.crl ...
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to http://crl.identrust.com/DSTROOTCAX3CRL.crl ...
+[Proxy Recording  ( dd8:1bc0)] Received response of 241 header and 0 body bytes from http://crl.identrust.com/DSTROOTCAX3CRL.crl
+[Proxy Recording  ( dd8:1bc0)] Sent 0 bytes to client @ 192.168.176.1:14396
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14398
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?45ac4ac5cffeefda ...
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?45ac4ac5cffeefda ...
+[Proxy Recording  ( dd8:1bc0)] Received response of 309 header and 0 body bytes from http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?45ac4ac5cffeefda
+[Proxy Recording  ( dd8:1bc0)] Sent 0 bytes to client @ 192.168.176.1:14398
+[Proxy Recording  ( dd8:1464)] Trying to connect to https://addons-pa.clients6.google.com:443/$rpc/google.internal.apps.addons.v1.AddOnService/ListInstallations ...
+[Proxy Recording  ( dd8:1464)] Trying to connect to https://addons-pa.clients6.google.com:443/$rpc/google.internal.apps.addons.v1.AddOnService/ListInstallations ...
+[Proxy Recording  ( dd8:1464)] Received response of 684 header and 0 body bytes from https://addons-pa.clients6.google.com:443/$rpc/google.internal.apps.addons.v1.AddOnService/ListInstallations
+[Proxy Recording  ( dd8:1464)] Sent 0 bytes to client @ 192.168.176.1:14391
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14402
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to https://addons-pa.clients6.google.com:443/$rpc/google.internal.apps.addons.v1.AddOnService/ListInstallations ...
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to https://addons-pa.clients6.google.com:443/$rpc/google.internal.apps.addons.v1.AddOnService/ListInstallations ...
+[Proxy Recording  ( dd8:1bc0)] Received response of 1148 header and 28 body bytes from https://addons-pa.clients6.google.com:443/$rpc/google.internal.apps.addons.v1.AddOnService/ListInstallations
+[Proxy Recording  ( dd8:1bc0)] Sent 28 bytes to client @ 192.168.176.1:14402
+[User action                 ] StartTransactionEvent login [Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14404
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://play.google.com:443/log?format=json&hasfast=true&authuser=0 ...
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://play.google.com:443/log?format=json&hasfast=true&authuser=0 ...
+[Proxy Recording  ( dd8:271c)] Received response of 963 header and 131 body bytes from https://play.google.com:443/log?format=json&hasfast=true&authuser=0
+[Proxy Recording  ( dd8:271c)] Sent 131 bytes to client @ 192.168.176.1:14404
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14406
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to http://192.168.176.1:1080/cgi-bin/login.pl ...
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to http://192.168.176.1:1080/cgi-bin/login.pl ...
+[Proxy Recording  ( dd8:1bc0)] Received response of 311 header and 481 body bytes from http://192.168.176.1:1080/cgi-bin/login.pl
+[Network Analyzer ( dd8:1bc0)]   (Sid: 19) Client -> Server @ : 702 bytes (Service=HTTP)
+[Web Request      ( dd8:1bc0)] "POST http://192.168.176.1:1080/cgi-bin/login.pl"   
+[Network Analyzer ( dd8:1bc0)]   (Sid: 19) Client -> Server @ : 124 bytes (Service=HTTP)
+[Network Analyzer ( dd8:1bc0)]   (Sid: 19) Server -> Client : 300 bytes  (Service=HTTP)
+[Network Analyzer ( dd8:1bc0)]   (Sid: 19) Server -> Client : 481 bytes  (Service=HTTP)
+[Proxy Recording  ( dd8:1bc0)] Sent 481 bytes to client @ 192.168.176.1:14406
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14408
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14410
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to http://192.168.176.1:1080/cgi-bin/nav.pl?page=menu&in=home ...
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14411
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to http://192.168.176.1:1080/cgi-bin/nav.pl?page=menu&in=home ...
+[Proxy Recording  ( dd8:1464)] Trying to connect to http://192.168.176.1:1080/cgi-bin/login.pl?intro=true ...
+[Proxy Recording  ( dd8:1464)] Trying to connect to http://192.168.176.1:1080/cgi-bin/login.pl?intro=true ...
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  ( dd8:1bc0)] Received response of 183 header and 1482 body bytes from http://192.168.176.1:1080/cgi-bin/nav.pl?page=menu&in=home
+[Proxy Recording  ( dd8:1464)] Received response of 156 header and 920 body bytes from http://192.168.176.1:1080/cgi-bin/login.pl?intro=true
+[Web Request      ( dd8:1bc0)] "GET http://192.168.176.1:1080/cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer ( dd8:1bc0)]   (Sid: 20) Client -> Server @ : 715 bytes (Service=HTTP)
+[Network Analyzer ( dd8:1bc0)]   (Sid: 20) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer ( dd8:1bc0)]   (Sid: 20) Server -> Client : 1482 bytes  (Service=HTTP)
+[Proxy Recording  ( dd8:1bc0)] Sent 1482 bytes to client @ 192.168.176.1:14410
+[Proxy Recording  ( dd8:271c)] Received response of 587 header and 348 body bytes from https://www.googleapis.com:443/oauth2/v4/token
+[Web Request      ( dd8:1464)] "GET http://192.168.176.1:1080/cgi-bin/login.pl?intro=true"   
+[Network Analyzer ( dd8:1464)]   (Sid: 21) Client -> Server @ : 710 bytes (Service=HTTP)
+[Network Analyzer ( dd8:1464)]   (Sid: 21) Server -> Client : 145 bytes  (Service=HTTP)
+[Network Analyzer ( dd8:1464)]   (Sid: 21) Server -> Client : 920 bytes  (Service=HTTP)
+[Proxy Recording  ( dd8:1464)] Sent 920 bytes to client @ 192.168.176.1:14411
+[Network Analyzer ( dd8:271c)]   (Sid: 22) Client -> Server @ : 441 bytes (SSL)(Service=HTTP)
+[Web Request      ( dd8:271c)] "POST https://www.googleapis.com/oauth2/v4/token"   
+[Network Analyzer ( dd8:271c)]   (Sid: 22) Client -> Server @ : 298 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( dd8:271c)]   (Sid: 22) Server -> Client : 576 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( dd8:271c)]   (Sid: 22) Server -> Client : 348 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( dd8:271c)] Sent 348 bytes to client @ 192.168.176.1:14408
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14413
+[User action                 ] EndTransactionEvent login [Proxy Recording.Error ( dd8:4270)] Exception is caught while connecting to , message=Индекс находился вне границ массива.
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to https://passwordsleakcheck-pa.googleapis.com:443/v1/leaks:lookupSingle ...
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to https://passwordsleakcheck-pa.googleapis.com:443/v1/leaks:lookupSingle ...
+[Proxy Recording  ( dd8:1bc0)] Received response of 491 header and 5800 body bytes from https://passwordsleakcheck-pa.googleapis.com:443/v1/leaks:lookupSingle
+[Network Analyzer ( dd8:1bc0)]   (Sid: 23) Client -> Server @ : 786 bytes (SSL)(Service=HTTP)
+[Web Request      ( dd8:1bc0)] "POST https://passwordsleakcheck-pa.googleapis.com/v1/leaks:lookupSingle"   
+[Network Analyzer ( dd8:1bc0)]   (Sid: 23) Client -> Server @ : 43 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( dd8:1bc0)]   (Sid: 23) Server -> Client : 480 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( dd8:1bc0)]   (Sid: 23) Server -> Client : 5800 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( dd8:1bc0)] Sent 5800 bytes to client @ 192.168.176.1:14413
+[User action                 ] StartTransactionEvent flights [Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14417
+[Proxy Recording  ( dd8:1464)] Trying to connect to http://192.168.176.1:1080/cgi-bin/welcome.pl?page=search ...
+[Proxy Recording  ( dd8:1464)] Trying to connect to http://192.168.176.1:1080/cgi-bin/welcome.pl?page=search ...
+[Proxy Recording  ( dd8:1464)] Received response of 143 header and 616 body bytes from http://192.168.176.1:1080/cgi-bin/welcome.pl?page=search
+[Web Request      ( dd8:1464)] "GET http://192.168.176.1:1080/cgi-bin/welcome.pl?page=search"   
+[Network Analyzer ( dd8:1464)]   (Sid: 24) Client -> Server @ : 729 bytes (Service=HTTP)
+[Network Analyzer ( dd8:1464)]   (Sid: 24) Server -> Client : 132 bytes  (Service=HTTP)
+[Network Analyzer ( dd8:1464)]   (Sid: 24) Server -> Client : 616 bytes  (Service=HTTP)
+[Proxy Recording  ( dd8:1464)] Sent 616 bytes to client @ 192.168.176.1:14417
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14419
+[Proxy Recording  ( dd8:271c)] Trying to connect to http://192.168.176.1:1080/cgi-bin/nav.pl?page=menu&in=flights ...
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14420
+[Proxy Recording  ( dd8:1464)] Trying to connect to http://192.168.176.1:1080/cgi-bin/reservations.pl?page=welcome ...
+[Proxy Recording  ( dd8:271c)] Trying to connect to http://192.168.176.1:1080/cgi-bin/nav.pl?page=menu&in=flights ...
+[Proxy Recording  ( dd8:1464)] Trying to connect to http://192.168.176.1:1080/cgi-bin/reservations.pl?page=welcome ...
+[Proxy Recording  ( dd8:271c)] Received response of 183 header and 1482 body bytes from http://192.168.176.1:1080/cgi-bin/nav.pl?page=menu&in=flights
+[Web Request      ( dd8:271c)] "GET http://192.168.176.1:1080/cgi-bin/nav.pl?page=menu&in=flights"   
+[Proxy Recording  ( dd8:1464)] Received response of 183 header and 4246 body bytes from http://192.168.176.1:1080/cgi-bin/reservations.pl?page=welcome
+[Network Analyzer ( dd8:271c)]   (Sid: 25) Client -> Server @ : 732 bytes (Service=HTTP)
+[Network Analyzer ( dd8:271c)]   (Sid: 25) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer ( dd8:271c)]   (Sid: 25) Server -> Client : 1482 bytes  (Service=HTTP)
+[Proxy Recording  ( dd8:271c)] Sent 1482 bytes to client @ 192.168.176.1:14419
+[Web Request      ( dd8:1464)] "GET http://192.168.176.1:1080/cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer ( dd8:1464)]   (Sid: 26) Client -> Server @ : 733 bytes (Service=HTTP)
+[Network Analyzer ( dd8:1464)]   (Sid: 26) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer ( dd8:1464)]   (Sid: 26) Server -> Client : 4246 bytes  (Service=HTTP)
+[Proxy Recording  ( dd8:1464)] Sent 4246 bytes to client @ 192.168.176.1:14420
+[User action                 ] EndTransactionEvent flights [User action                 ] StartTransactionEvent findflight [Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14422
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=10:600660516&cup2hreq=76f58fb5239f51fbaacb653fb0332e429ce08cf12baa136b027f605a3273f3f3 ...
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=10:600660516&cup2hreq=76f58fb5239f51fbaacb653fb0332e429ce08cf12baa136b027f605a3273f3f3 ...
+[Proxy Recording  ( dd8:271c)] Received response of 1256 header and 813 body bytes from https://update.googleapis.com:443/service/update2/json?cup2key=10:600660516&cup2hreq=76f58fb5239f51fbaacb653fb0332e429ce08cf12baa136b027f605a3273f3f3
+[Network Analyzer ( dd8:271c)]   (Sid: 27) Client -> Server @ : 1237 bytes (SSL)(Service=HTTP)
+[Web Request      ( dd8:271c)] "POST https://update.googleapis.com/service/update2/json?cup2key=10:600660516&cup2hreq=76f58fb5239f51fbaacb653fb0332e429ce08cf12baa136b027f605a3273f3f3"   
+[Network Analyzer ( dd8:271c)]   (Sid: 27) Client -> Server @ : 7160 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( dd8:271c)]   (Sid: 27) Server -> Client : 1245 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( dd8:271c)]   (Sid: 27) Server -> Client : 813 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( dd8:271c)] Sent 813 bytes to client @ 192.168.176.1:14422
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14424
+[Proxy Recording.Error ( dd8:1464)] Exception is caught while connecting to , message=Буфер выходных символов не достаточен для хранения закодированных символов, кодирование 'Unicode (UTF-8)' резерв 'System.Text.DecoderReplacementFallback'.
+Имя параметра: chars
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14425
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=h93FFF0ZBatSbOuq8rcGs7HpJaMc_4XaKSQO5E3CFTY&VER=8&RID=rpc&SID=483D17AD37106629&CI=0&AID=245&TYPE=xmlhttp&zx=e5h77g6h3ir2&t=2 ...
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=h93FFF0ZBatSbOuq8rcGs7HpJaMc_4XaKSQO5E3CFTY&VER=8&RID=rpc&SID=483D17AD37106629&CI=0&AID=245&TYPE=xmlhttp&zx=e5h77g6h3ir2&t=2 ...
+[Proxy Recording  ( dd8:251c)] Received response of 869 header and 44 body bytes from https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=h93FFF0ZBatSbOuq8rcGs7HpJaMc_4XaKSQO5E3CFTY&VER=8&RID=rpc&SID=483D17AD37106629&CI=0&AID=245&TYPE=xmlhttp&zx=k4605kzpe3&t=1
+[Proxy Recording.Error ( dd8:251c)] Exception is caught while sending data to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=h93FFF0ZBatSbOuq8rcGs7HpJaMc_4XaKSQO5E3CFTY&VER=8&RID=rpc&SID=483D17AD37106629&CI=0&AID=245&TYPE=xmlhttp&zx=k4605kzpe3&t=1, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14428
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14429
+[Proxy Recording  ( dd8:251c)] Trying to connect to https://ssl.gstatic.com:443/ui/v1/icons/mail/images/cleardot.gif?zx=ulaqx5rotmd3 ...
+[Proxy Recording  ( dd8:251c)] Trying to connect to https://ssl.gstatic.com:443/ui/v1/icons/mail/images/cleardot.gif?zx=ulaqx5rotmd3 ...
+[Proxy Recording  ( dd8:251c)] Received response of 552 header and 43 body bytes from https://ssl.gstatic.com:443/ui/v1/icons/mail/images/cleardot.gif?zx=ulaqx5rotmd3
+[Proxy Recording  ( dd8:251c)] Sent 43 bytes to client @ 192.168.176.1:14429
+[Proxy Recording  ( dd8:1464)] Trying to connect to https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINOTAuMC40NDMwLjIxMhopCAUQARobCg0IBRAGGAEiAzAwMTABEMmxCxoCGAorX8eZIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARC49ggaAhgKoDyVByIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQxuIIGgIYCi446ZQiBCABIAIoARopCAcQARobCg0IBxAGGAEiAzAwMTABEKuxCRoCGAotr2gHIgQgASACKAEaJwgBEAEaGQoNCAEQBhgBIgMwMDEwAxAUGgIYCqBW0rYiBCABIAIoAxooCAEQCBoaCg0IARAIGAEiAzAwMTAEELcgGgIYChckk0oiBCABIAIoBBonCAkQARoZCg0ICRAGGAEiAzAwMTAGEAMaAhgK_-n9HCIEIAEgAigGGigIDxABGhoKDQgPEAYYASIDMDAxMAEQ22oaAhgKXwr9vyIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAr1C3e3IgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAfGgIYCjXdRHkiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABEJ8MGgIYCuKl1pMiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEKyUARoCGAqpfQuKIgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARCkzQUaAhgKbjS1RCIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQ_AoaAhgK9BYLGiIEIAEgAigBIgIIAQ==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  ( dd8:1464)] Trying to connect to https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINOTAuMC40NDMwLjIxMhopCAUQARobCg0IBRAGGAEiAzAwMTABEMmxCxoCGAorX8eZIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARC49ggaAhgKoDyVByIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQxuIIGgIYCi446ZQiBCABIAIoARopCAcQARobCg0IBxAGGAEiAzAwMTABEKuxCRoCGAotr2gHIgQgASACKAEaJwgBEAEaGQoNCAEQBhgBIgMwMDEwAxAUGgIYCqBW0rYiBCABIAIoAxooCAEQCBoaCg0IARAIGAEiAzAwMTAEELcgGgIYChckk0oiBCABIAIoBBonCAkQARoZCg0ICRAGGAEiAzAwMTAGEAMaAhgK_-n9HCIEIAEgAigGGigIDxABGhoKDQgPEAYYASIDMDAxMAEQ22oaAhgKXwr9vyIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAr1C3e3IgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAfGgIYCjXdRHkiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABEJ8MGgIYCuKl1pMiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEKyUARoCGAqpfQuKIgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARCkzQUaAhgKbjS1RCIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQ_AoaAhgK9BYLGiIEIAEgAigBIgIIAQ==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  ( dd8:1464)] Received response of 510 header and 8909 body bytes from https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINOTAuMC40NDMwLjIxMhopCAUQARobCg0IBRAGGAEiAzAwMTABEMmxCxoCGAorX8eZIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARC49ggaAhgKoDyVByIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQxuIIGgIYCi446ZQiBCABIAIoARopCAcQARobCg0IBxAGGAEiAzAwMTABEKuxCRoCGAotr2gHIgQgASACKAEaJwgBEAEaGQoNCAEQBhgBIgMwMDEwAxAUGgIYCqBW0rYiBCABIAIoAxooCAEQCBoaCg0IARAIGAEiAzAwMTAEELcgGgIYChckk0oiBCABIAIoBBonCAkQARoZCg0ICRAGGAEiAzAwMTAGEAMaAhgK_-n9HCIEIAEgAigGGigIDxABGhoKDQgPEAYYASIDMDAxMAEQ22oaAhgKXwr9vyIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAr1C3e3IgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAfGgIYCjXdRHkiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABEJ8MGgIYCuKl1pMiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEKyUARoCGAqpfQuKIgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARCkzQUaAhgKbjS1RCIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQ_AoaAhgK9BYLGiIEIAEgAigBIgIIAQ==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+[Web Request      ( dd8:1464)] "GET https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINOTAuMC40NDMwLjIxMhopCAUQARobCg0IBRAGGAEiAzAwMTABEMmxCxoCGAorX8eZIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARC49ggaAhgKoDyVByIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQxuIIGgIYCi446ZQiBCABIAIoARopCAcQARobCg0IBxAGGAEiAzAwMTABEKuxCRoCGAotr2gHIgQgASACKAEaJwgBEAEaGQoNCAEQBhgBIgMwMDEwAxAUGgIYCqBW0rYiBCABIAIoAxooCAEQCBoaCg0IARAIGAEiAzAwMTAEELcgGgIYChckk0oiBCABIAIoBBonCAkQARoZCg0ICRAGGAEiAzAwMTAGEAMaAhgK_-n9HCIEIAEgAigGGigIDxABGhoKDQgPEAYYASIDMDAxMAEQ22oaAhgKXwr9vyIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAr1C3e3IgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAfGgIYCjXdRHkiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABEJ8MGgIYCuKl1pMiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEKyUARoCGAqpfQuKIgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARCkzQUaAhgKbjS1RCIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQ_AoaAhgK9BYLGiIEIAEgAigBIgIIAQ==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer ( dd8:1464)]   (Sid: 28) Client -> Server @ : 1312 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( dd8:1464)]   (Sid: 28) Server -> Client : 527 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( dd8:1464)]   (Sid: 28) Server -> Client : 8909 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( dd8:1464)] Sent 8909 bytes to client @ 192.168.176.1:14428
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14434
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/authrootstl.cab?6b2e4b9b54349d7a ...
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/authrootstl.cab?6b2e4b9b54349d7a ...
+[Proxy Recording  ( dd8:1bc0)] Received response of 309 header and 0 body bytes from http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/authrootstl.cab?6b2e4b9b54349d7a
+[Proxy Recording  ( dd8:1bc0)] Sent 0 bytes to client @ 192.168.176.1:14434
+[Proxy Recording  ( dd8:1c38)] Empty http command received from client's ssl connection
+[Proxy Recording  ( dd8: 560)] Empty http command received from client's ssl connection
+[Proxy Recording  ( dd8:461c)] Empty http command received from client's ssl connection
+[Proxy Recording  ( dd8: 554)] Empty http command received from client's ssl connection
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14435
+[Proxy Recording  ( dd8: 554)] Trying to connect to http://192.168.176.1:1080/cgi-bin/reservations.pl ...
+[Proxy Recording  ( dd8: 554)] Trying to connect to http://192.168.176.1:1080/cgi-bin/reservations.pl ...
+[Proxy Recording  ( dd8: 554)] Received response of 183 header and 2442 body bytes from http://192.168.176.1:1080/cgi-bin/reservations.pl
+[Network Analyzer ( dd8: 554)]   (Sid: 29) Client -> Server @ : 858 bytes (Service=HTTP)
+[Web Request      ( dd8: 554)] "POST http://192.168.176.1:1080/cgi-bin/reservations.pl"   
+[Network Analyzer ( dd8: 554)]   (Sid: 29) Client -> Server @ : 236 bytes (Service=HTTP)
+[Network Analyzer ( dd8: 554)]   (Sid: 29) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer ( dd8: 554)]   (Sid: 29) Server -> Client : 2442 bytes  (Service=HTTP)
+[Proxy Recording  ( dd8: 554)] Sent 2442 bytes to client @ 192.168.176.1:14435
+[User action                 ] EndTransactionEvent findflight [User action                 ] StartTransactionEvent chooseflight [Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14438
+[Proxy Recording  ( dd8:251c)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=h93FFF0ZBatSbOuq8rcGs7HpJaMc_4XaKSQO5E3CFTY&VER=8&SID=483D17AD37106629&RID=54105&TYPE=terminate&zx=2kgqyzxbk812 ...
+[Proxy Recording  ( dd8:251c)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=h93FFF0ZBatSbOuq8rcGs7HpJaMc_4XaKSQO5E3CFTY&VER=8&SID=483D17AD37106629&RID=54105&TYPE=terminate&zx=2kgqyzxbk812 ...
+[Proxy Recording  ( dd8:271c)] Received response of 869 header and 44 body bytes from https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=h93FFF0ZBatSbOuq8rcGs7HpJaMc_4XaKSQO5E3CFTY&VER=8&RID=rpc&SID=483D17AD37106629&CI=0&AID=245&TYPE=xmlhttp&zx=e5h77g6h3ir2&t=2
+[Proxy Recording  ( dd8:251c)] Received response of 860 header and 0 body bytes from https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=h93FFF0ZBatSbOuq8rcGs7HpJaMc_4XaKSQO5E3CFTY&VER=8&SID=483D17AD37106629&RID=54105&TYPE=terminate&zx=2kgqyzxbk812
+[Proxy Recording.Error ( dd8:271c)] Exception is caught while sending data to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=h93FFF0ZBatSbOuq8rcGs7HpJaMc_4XaKSQO5E3CFTY&VER=8&RID=rpc&SID=483D17AD37106629&CI=0&AID=245&TYPE=xmlhttp&zx=e5h77g6h3ir2&t=2, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording  ( dd8:251c)] Sent 0 bytes to client @ 192.168.176.1:14438
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14440
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to https://0.client-channel.google.com:443/client-channel/gsid ...
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to https://0.client-channel.google.com:443/client-channel/gsid ...
+[Proxy Recording  ( dd8:1bc0)] Received response of 554 header and 72 body bytes from https://0.client-channel.google.com:443/client-channel/gsid
+[Proxy Recording  ( dd8:1bc0)] Sent 72 bytes to client @ 192.168.176.1:14440
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14442
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://0.client-channel.google.com:443/client-channel/gsid ...
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://0.client-channel.google.com:443/client-channel/gsid ...
+[Proxy Recording  ( dd8:271c)] Received response of 554 header and 72 body bytes from https://0.client-channel.google.com:443/client-channel/gsid
+[Proxy Recording  ( dd8:271c)] Sent 72 bytes to client @ 192.168.176.1:14442
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14444
+[Proxy Recording  ( dd8:251c)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/cbp?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&MODE=init&zx=ygq3krbbps2j&t=1 ...
+[Proxy Recording  ( dd8:251c)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/cbp?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&MODE=init&zx=ygq3krbbps2j&t=1 ...
+[Proxy Recording  ( dd8:251c)] Received response of 927 header and 25 body bytes from https://0.client-channel.google.com:443/client-channel/channel/cbp?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&MODE=init&zx=ygq3krbbps2j&t=1
+[Proxy Recording  ( dd8:251c)] Sent 25 bytes to client @ 192.168.176.1:14444
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14446
+[Proxy Recording  ( dd8:1c38)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/cbp?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&TYPE=xmlhttp&zx=fug71n2lik4a&t=1 ...
+[Proxy Recording  ( dd8:1c38)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/cbp?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&TYPE=xmlhttp&zx=fug71n2lik4a&t=1 ...
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14448
+[Proxy Recording  ( dd8: 560)] Trying to connect to http://192.168.176.1:1080/cgi-bin/reservations.pl ...
+[Proxy Recording  ( dd8: 560)] Trying to connect to http://192.168.176.1:1080/cgi-bin/reservations.pl ...
+[Proxy Recording  ( dd8:1c38)] Received response of 869 header and 6 body bytes from https://0.client-channel.google.com:443/client-channel/channel/cbp?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&TYPE=xmlhttp&zx=fug71n2lik4a&t=1
+[Proxy Recording  ( dd8: 560)] Received response of 183 header and 2768 body bytes from http://192.168.176.1:1080/cgi-bin/reservations.pl
+[Proxy Recording  ( dd8:1c38)] Sent 6 bytes to client @ 192.168.176.1:14446
+[Network Analyzer ( dd8: 560)]   (Sid: 30) Client -> Server @ : 845 bytes (Service=HTTP)
+[Web Request      ( dd8: 560)] "POST http://192.168.176.1:1080/cgi-bin/reservations.pl"   
+[Network Analyzer ( dd8: 560)]   (Sid: 30) Client -> Server @ : 145 bytes (Service=HTTP)
+[Network Analyzer ( dd8: 560)]   (Sid: 30) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer ( dd8: 560)]   (Sid: 30) Server -> Client : 2768 bytes  (Service=HTTP)
+[Proxy Recording  ( dd8: 560)] Sent 2768 bytes to client @ 192.168.176.1:14448
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14450
+[Proxy Recording  ( dd8:251c)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=53174&CVER=5&zx=3el351echcy9&t=1 ...
+[Proxy Recording  ( dd8:251c)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=53174&CVER=5&zx=3el351echcy9&t=1 ...
+[Proxy Recording  ( dd8:251c)] Received response of 893 header and 57 body bytes from https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=53174&CVER=5&zx=3el351echcy9&t=1
+[Proxy Recording  ( dd8:251c)] Sent 57 bytes to client @ 192.168.176.1:14450
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14452
+[Proxy Recording.Error ( dd8:271c)] Exception is caught while connecting to , message=Буфер выходных символов не достаточен для хранения закодированных символов, кодирование 'Unicode (UTF-8)' резерв 'System.Text.DecoderReplacementFallback'.
+Имя параметра: chars
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14453
+[Proxy Recording  ( dd8:461c)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=0&TYPE=xmlhttp&zx=ecxfthan9o3e&t=1 ...
+[Proxy Recording  ( dd8:461c)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=0&TYPE=xmlhttp&zx=ecxfthan9o3e&t=1 ...
+[Proxy Recording  ( dd8:461c)] Received response of 869 header and 157 body bytes from https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=0&TYPE=xmlhttp&zx=ecxfthan9o3e&t=1
+[Proxy Recording  ( dd8:461c)] Sent 157 bytes to client @ 192.168.176.1:14453
+[User action                 ] EndTransactionEvent chooseflight [Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14455
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14457
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14458
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14459
+[Proxy Recording  ( dd8:1464)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=1&TYPE=xmlhttp&zx=hod5mbemnt4b&t=1 ...
+[Proxy Recording  ( dd8:1464)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=1&TYPE=xmlhttp&zx=hod5mbemnt4b&t=1 ...
+[Proxy Recording  ( dd8:251c)] Trying to connect to https://chat-pa.clients6.google.com:443/chat/v1/presence/setpresence?key=AIzaSyD7InnYR3VKdb4j2rMUEbTCIr2VyEazl6k&alt=protojson ...
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://chat-pa.clients6.google.com:443/chat/v1/conversations/syncallnewevents?key=AIzaSyD7InnYR3VKdb4j2rMUEbTCIr2VyEazl6k&alt=protojson ...
+[Proxy Recording  ( dd8:251c)] Trying to connect to https://chat-pa.clients6.google.com:443/chat/v1/presence/setpresence?key=AIzaSyD7InnYR3VKdb4j2rMUEbTCIr2VyEazl6k&alt=protojson ...
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://chat-pa.clients6.google.com:443/chat/v1/conversations/syncallnewevents?key=AIzaSyD7InnYR3VKdb4j2rMUEbTCIr2VyEazl6k&alt=protojson ...
+[Proxy Recording  ( dd8:251c)] Received response of 660 header and 0 body bytes from https://chat-pa.clients6.google.com:443/chat/v1/presence/setpresence?key=AIzaSyD7InnYR3VKdb4j2rMUEbTCIr2VyEazl6k&alt=protojson
+[Proxy Recording  ( dd8:271c)] Received response of 660 header and 0 body bytes from https://chat-pa.clients6.google.com:443/chat/v1/conversations/syncallnewevents?key=AIzaSyD7InnYR3VKdb4j2rMUEbTCIr2VyEazl6k&alt=protojson
+[Proxy Recording  ( dd8:251c)] Sent 0 bytes to client @ 192.168.176.1:14457
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14464
+[Proxy Recording  ( dd8:271c)] Sent 0 bytes to client @ 192.168.176.1:14458
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14465
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14466
+[Proxy Recording  ( dd8:251c)] Trying to connect to https://chat-pa.clients6.google.com:443/chat/v1/conversations/syncallnewevents?key=AIzaSyD7InnYR3VKdb4j2rMUEbTCIr2VyEazl6k&alt=protojson ...
+[Proxy Recording  ( dd8:251c)] Trying to connect to https://chat-pa.clients6.google.com:443/chat/v1/conversations/syncallnewevents?key=AIzaSyD7InnYR3VKdb4j2rMUEbTCIr2VyEazl6k&alt=protojson ...
+[Proxy Recording  ( dd8:1c38)] Trying to connect to https://chat-pa.clients6.google.com:443/chat/v1/presence/setpresence?key=AIzaSyD7InnYR3VKdb4j2rMUEbTCIr2VyEazl6k&alt=protojson ...
+[Proxy Recording  ( dd8: 560)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&SID=FCA72F0B00C6E9CE&RID=53175&AID=1&zx=jc4huamm532a&t=1 ...
+[Proxy Recording  ( dd8:1c38)] Trying to connect to https://chat-pa.clients6.google.com:443/chat/v1/presence/setpresence?key=AIzaSyD7InnYR3VKdb4j2rMUEbTCIr2VyEazl6k&alt=protojson ...
+[Proxy Recording  ( dd8: 560)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&SID=FCA72F0B00C6E9CE&RID=53175&AID=1&zx=jc4huamm532a&t=1 ...
+[Proxy Recording  ( dd8:1464)] Received response of 869 header and 287 body bytes from https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=1&TYPE=xmlhttp&zx=hod5mbemnt4b&t=1
+[Proxy Recording  ( dd8: 560)] Received response of 893 header and 31 body bytes from https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&SID=FCA72F0B00C6E9CE&RID=53175&AID=1&zx=jc4huamm532a&t=1
+[Proxy Recording  ( dd8:1464)] Sent 287 bytes to client @ 192.168.176.1:14455
+[Proxy Recording  ( dd8: 560)] Sent 31 bytes to client @ 192.168.176.1:14466
+[Proxy Recording  ( dd8:461c)] Trying to connect to https://hangouts.google.com:443/webchat/u/0/_/data?ds.extension=61227348&_reqid=575285&rt=j ...
+[Proxy Recording  ( dd8:461c)] Trying to connect to https://hangouts.google.com:443/webchat/u/0/_/data?ds.extension=61227348&_reqid=575285&rt=j ...
+[Proxy Recording  ( dd8:1c38)] Received response of 1184 header and 79 body bytes from https://chat-pa.clients6.google.com:443/chat/v1/presence/setpresence?key=AIzaSyD7InnYR3VKdb4j2rMUEbTCIr2VyEazl6k&alt=protojson
+[Proxy Recording  ( dd8:251c)] Received response of 1184 header and 87 body bytes from https://chat-pa.clients6.google.com:443/chat/v1/conversations/syncallnewevents?key=AIzaSyD7InnYR3VKdb4j2rMUEbTCIr2VyEazl6k&alt=protojson
+[Proxy Recording  ( dd8:1c38)] Sent 79 bytes to client @ 192.168.176.1:14464
+[Proxy Recording  ( dd8:251c)] Sent 87 bytes to client @ 192.168.176.1:14465
+[Proxy Recording  ( dd8:461c)] Received response of 1069 header and 2210 body bytes from https://hangouts.google.com:443/webchat/u/0/_/data?ds.extension=61227348&_reqid=575285&rt=j
+[Proxy Recording  ( dd8:461c)] Sent 2210 bytes to client @ 192.168.176.1:14459
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14472
+[Proxy Recording  ( dd8: 560)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=3&TYPE=xmlhttp&zx=1owhd9y6c7cq&t=1 ...
+[Proxy Recording  ( dd8: 560)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=3&TYPE=xmlhttp&zx=1owhd9y6c7cq&t=1 ...
+[Proxy Recording  ( dd8: 560)] Received response of 869 header and 1303 body bytes from https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=3&TYPE=xmlhttp&zx=1owhd9y6c7cq&t=1
+[Proxy Recording  ( dd8: 560)] Sent 1303 bytes to client @ 192.168.176.1:14472
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14474
+[Proxy Recording  ( dd8: 554)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=7&TYPE=xmlhttp&zx=c5rxf3i3f724&t=1 ...
+[Proxy Recording  ( dd8: 554)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=7&TYPE=xmlhttp&zx=c5rxf3i3f724&t=1 ...
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14476
+[User action                 ] StartTransactionEvent paymentdetails [Proxy Recording  ( dd8:251c)] Trying to connect to https://ssl.gstatic.com:443/docs/common/cleardot.gif?zx=i39075usfcf2 ...
+[Proxy Recording  ( dd8:251c)] Trying to connect to https://ssl.gstatic.com:443/docs/common/cleardot.gif?zx=i39075usfcf2 ...
+[Proxy Recording  ( dd8:251c)] Received response of 537 header and 43 body bytes from https://ssl.gstatic.com:443/docs/common/cleardot.gif?zx=i39075usfcf2
+[Proxy Recording  ( dd8:251c)] Sent 43 bytes to client @ 192.168.176.1:14476
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14478
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to http://192.168.176.1:1080/cgi-bin/reservations.pl ...
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to http://192.168.176.1:1080/cgi-bin/reservations.pl ...
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14480
+[Proxy Recording  ( dd8:1c38)] Trying to connect to http://192.168.176.1:1080/cgi-bin/reservations.pl ...
+[Proxy Recording  ( dd8:1c38)] Trying to connect to http://192.168.176.1:1080/cgi-bin/reservations.pl ...
+[Proxy Recording  ( dd8:1bc0)] Received response of 335 header and 2468 body bytes from http://192.168.176.1:1080/cgi-bin/reservations.pl
+[Proxy Recording  ( dd8:1c38)] Received response of 335 header and 2468 body bytes from http://192.168.176.1:1080/cgi-bin/reservations.pl
+[Network Analyzer ( dd8:1bc0)]   (Sid: 31) Client -> Server @ : 845 bytes (Service=HTTP)
+[Web Request      ( dd8:1bc0)] "POST http://192.168.176.1:1080/cgi-bin/reservations.pl"   
+[Network Analyzer ( dd8:1bc0)]   (Sid: 31) Client -> Server @ : 320 bytes (Service=HTTP)
+[Network Analyzer ( dd8:1bc0)]   (Sid: 31) Server -> Client : 324 bytes  (Service=HTTP)
+[Network Analyzer ( dd8:1bc0)]   (Sid: 31) Server -> Client : 2468 bytes  (Service=HTTP)
+[Proxy Recording.Error ( dd8:1bc0)] Exception is caught while sending data to http://192.168.176.1:1080/cgi-bin/reservations.pl, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Network Analyzer ( dd8:1c38)]   (Sid: 32) Client -> Server @ : 845 bytes (Service=HTTP)
+[Web Request      ( dd8:1c38)] "POST http://192.168.176.1:1080/cgi-bin/reservations.pl"   
+[Network Analyzer ( dd8:1c38)]   (Sid: 32) Client -> Server @ : 320 bytes (Service=HTTP)
+[Network Analyzer ( dd8:1c38)]   (Sid: 32) Server -> Client : 324 bytes  (Service=HTTP)
+[Network Analyzer ( dd8:1c38)]   (Sid: 32) Server -> Client : 2468 bytes  (Service=HTTP)
+[Proxy Recording  ( dd8:1c38)] Sent 2468 bytes to client @ 192.168.176.1:14480
+[User action                 ] EndTransactionEvent paymentdetails [Proxy Recording  ( dd8: 554)] Received response of 869 header and 40 body bytes from https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=7&TYPE=xmlhttp&zx=c5rxf3i3f724&t=1
+[Proxy Recording  ( dd8: 554)] Sent 40 bytes to client @ 192.168.176.1:14474
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14482
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=9&TYPE=xmlhttp&zx=q0k7sbbvbd1u&t=1 ...
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=9&TYPE=xmlhttp&zx=q0k7sbbvbd1u&t=1 ...
+[User action                 ] StartTransactionEvent itinerary [Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14484
+[Proxy Recording  ( dd8: 560)] Trying to connect to http://192.168.176.1:1080/cgi-bin/welcome.pl?page=itinerary ...
+[Proxy Recording  ( dd8: 560)] Trying to connect to http://192.168.176.1:1080/cgi-bin/welcome.pl?page=itinerary ...
+[Proxy Recording  ( dd8: 560)] Received response of 143 header and 591 body bytes from http://192.168.176.1:1080/cgi-bin/welcome.pl?page=itinerary
+[Web Request      ( dd8: 560)] "GET http://192.168.176.1:1080/cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer ( dd8: 560)]   (Sid: 33) Client -> Server @ : 732 bytes (Service=HTTP)
+[Network Analyzer ( dd8: 560)]   (Sid: 33) Server -> Client : 132 bytes  (Service=HTTP)
+[Network Analyzer ( dd8: 560)]   (Sid: 33) Server -> Client : 591 bytes  (Service=HTTP)
+[Proxy Recording  ( dd8: 560)] Sent 591 bytes to client @ 192.168.176.1:14484
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14486
+[Proxy Recording  ( dd8: 554)] Trying to connect to http://192.168.176.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary ...
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14487
+[Proxy Recording  ( dd8: 560)] Trying to connect to http://192.168.176.1:1080/cgi-bin/itinerary.pl ...
+[Proxy Recording  ( dd8: 554)] Trying to connect to http://192.168.176.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary ...
+[Proxy Recording  ( dd8: 560)] Trying to connect to http://192.168.176.1:1080/cgi-bin/itinerary.pl ...
+[Proxy Recording  ( dd8: 554)] Received response of 183 header and 1482 body bytes from http://192.168.176.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary
+[Proxy Recording  ( dd8: 560)] Received response of 183 header and 8272 body bytes from http://192.168.176.1:1080/cgi-bin/itinerary.pl
+[Web Request      ( dd8: 554)] "GET http://192.168.176.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer ( dd8: 554)]   (Sid: 34) Client -> Server @ : 734 bytes (Service=HTTP)
+[Network Analyzer ( dd8: 554)]   (Sid: 34) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer ( dd8: 554)]   (Sid: 34) Server -> Client : 1482 bytes  (Service=HTTP)
+[Proxy Recording  ( dd8: 554)] Sent 1482 bytes to client @ 192.168.176.1:14486
+[Web Request      ( dd8: 560)] "GET http://192.168.176.1:1080/cgi-bin/itinerary.pl"   
+[Network Analyzer ( dd8: 560)]   (Sid: 35) Client -> Server @ : 717 bytes (Service=HTTP)
+[Network Analyzer ( dd8: 560)]   (Sid: 35) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer ( dd8: 560)]   (Sid: 35) Server -> Client : 8272 bytes  (Service=HTTP)
+[Proxy Recording  ( dd8: 560)] Sent 8272 bytes to client @ 192.168.176.1:14487
+[User action                 ] EndTransactionEvent itinerary [Proxy Recording  ( dd8:271c)] Received response of 869 header and 42 body bytes from https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=9&TYPE=xmlhttp&zx=q0k7sbbvbd1u&t=1
+[Proxy Recording  ( dd8:271c)] Sent 42 bytes to client @ 192.168.176.1:14482
+[User action                 ] StartTransactionEvent deleteflight [Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14489
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=11&TYPE=xmlhttp&zx=bxijy2jleaz5&t=1 ...
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=11&TYPE=xmlhttp&zx=bxijy2jleaz5&t=1 ...
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14491
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14492
+[Proxy Recording  ( dd8:497c)] Trying to connect to http://192.168.176.1:1080/cgi-bin/itinerary.pl ...
+[Proxy Recording  ( dd8:497c)] Trying to connect to http://192.168.176.1:1080/cgi-bin/itinerary.pl ...
+[Proxy Recording  ( dd8:497c)] Received response of 183 header and 7119 body bytes from http://192.168.176.1:1080/cgi-bin/itinerary.pl
+[Network Analyzer ( dd8:497c)]   (Sid: 36) Client -> Server @ : 836 bytes (Service=HTTP)
+[Web Request      ( dd8:497c)] "POST http://192.168.176.1:1080/cgi-bin/itinerary.pl"   
+[Network Analyzer ( dd8:497c)]   (Sid: 36) Client -> Server @ : 268 bytes (Service=HTTP)
+[Network Analyzer ( dd8:497c)]   (Sid: 36) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer ( dd8:497c)]   (Sid: 36) Server -> Client : 7119 bytes  (Service=HTTP)
+[Proxy Recording  ( dd8:497c)] Sent 7119 bytes to client @ 192.168.176.1:14492
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://mail.google.com:443/sync/u/0/i/s?hl=ru&c=110 ...
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://mail.google.com:443/sync/u/0/i/s?hl=ru&c=110 ...
+[Proxy Recording  ( dd8:271c)] Received response of 882 header and 364 body bytes from https://mail.google.com:443/sync/u/0/i/s?hl=ru&c=110
+[Proxy Recording  ( dd8:271c)] Sent 364 bytes to client @ 192.168.176.1:14491
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14496
+[Proxy Recording  ( dd8: f48)] Trying to connect to https://cello.client-channel.google.com:443/client-channel/channel/bind?authuser=0&ctype=cello&gsessionid=0hy9o39sNNDx8QUy94xoILyEfZWjsE12fiXLVwwDYE4&sw=true&VER=8&RID=rpc&SID=3CFFE09047BE1DCB&CI=0&AID=20&TYPE=xmlhttp&zx=pf9scq808fku&t=1 ...
+[Proxy Recording  ( dd8: f48)] Trying to connect to https://cello.client-channel.google.com:443/client-channel/channel/bind?authuser=0&ctype=cello&gsessionid=0hy9o39sNNDx8QUy94xoILyEfZWjsE12fiXLVwwDYE4&sw=true&VER=8&RID=rpc&SID=3CFFE09047BE1DCB&CI=0&AID=20&TYPE=xmlhttp&zx=pf9scq808fku&t=1 ...
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14499
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://ssl.gstatic.com:443/ui/v1/icons/mail/images/cleardot.gif?zx=tx1p5q1u97wf ...
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://ssl.gstatic.com:443/ui/v1/icons/mail/images/cleardot.gif?zx=tx1p5q1u97wf ...
+[Proxy Recording  ( dd8:271c)] Received response of 552 header and 43 body bytes from https://ssl.gstatic.com:443/ui/v1/icons/mail/images/cleardot.gif?zx=tx1p5q1u97wf
+[Proxy Recording  ( dd8:271c)] Sent 43 bytes to client @ 192.168.176.1:14499
+[User action                 ] EndTransactionEvent deleteflight [Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14501
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://play.google.com:443/log?format=json&hasfast=true&authuser=0 ...
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://play.google.com:443/log?format=json&hasfast=true&authuser=0 ...
+[Proxy Recording  ( dd8:271c)] Received response of 963 header and 131 body bytes from https://play.google.com:443/log?format=json&hasfast=true&authuser=0
+[Proxy Recording  ( dd8:271c)] Sent 131 bytes to client @ 192.168.176.1:14501
+[Proxy Recording  ( dd8:1bc0)] Received response of 869 header and 42 body bytes from https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=11&TYPE=xmlhttp&zx=bxijy2jleaz5&t=1
+[Proxy Recording  ( dd8:1bc0)] Sent 42 bytes to client @ 192.168.176.1:14489
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14504
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=13&TYPE=xmlhttp&zx=6sa48fefzn64&t=1 ...
+[Proxy Recording  ( dd8:271c)] Trying to connect to https://0.client-channel.google.com:443/client-channel/channel/bind?ctype=hangouts&prop=gmail&appver=babel-chat.frontend_20210520.03_p0&gsessionid=__d10VoVIlragBCINjK_q8NGaiVQBK9yqrhM58L6atQ&VER=8&RID=rpc&SID=FCA72F0B00C6E9CE&CI=1&AID=13&TYPE=xmlhttp&zx=6sa48fefzn64&t=1 ...
+[User action                 ] StartTransactionEvent signoff [Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14506
+[Proxy Recording.Error ( dd8:1bc0)] Exception is caught while connecting to , message=Буфер выходных символов не достаточен для хранения закодированных символов, кодирование 'Unicode (UTF-8)' резерв 'System.Text.DecoderReplacementFallback'.
+Имя параметра: chars
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14507
+[Proxy Recording  ( dd8:497c)] Trying to connect to http://192.168.176.1:1080/cgi-bin/welcome.pl?signOff=1 ...
+[Proxy Recording  ( dd8:497c)] Trying to connect to http://192.168.176.1:1080/cgi-bin/welcome.pl?signOff=1 ...
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14509
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to http://192.168.176.1:1080/cgi-bin/welcome.pl?signOff=1 ...
+[Proxy Recording  ( dd8:1bc0)] Trying to connect to http://192.168.176.1:1080/cgi-bin/welcome.pl?signOff=1 ...
+[Proxy Recording  ( dd8:497c)] Received response of 242 header and 686 body bytes from http://192.168.176.1:1080/cgi-bin/welcome.pl?signOff=1
+[Proxy Recording  ( dd8:1bc0)] Received response of 242 header and 686 body bytes from http://192.168.176.1:1080/cgi-bin/welcome.pl?signOff=1
+[Web Request      ( dd8:497c)] "GET http://192.168.176.1:1080/cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer ( dd8:497c)]   (Sid: 37) Client -> Server @ : 729 bytes (Service=HTTP)
+[Network Analyzer ( dd8:497c)]   (Sid: 37) Server -> Client : 231 bytes  (Service=HTTP)
+[Network Analyzer ( dd8:497c)]   (Sid: 37) Server -> Client : 686 bytes  (Service=HTTP)
+[Proxy Recording.Error ( dd8:497c)] Exception is caught while sending data to http://192.168.176.1:1080/cgi-bin/welcome.pl?signOff=1, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Web Request      ( dd8:1bc0)] "GET http://192.168.176.1:1080/cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer ( dd8:1bc0)]   (Sid: 38) Client -> Server @ : 729 bytes (Service=HTTP)
+[Network Analyzer ( dd8:1bc0)]   (Sid: 38) Server -> Client : 231 bytes  (Service=HTTP)
+[Network Analyzer ( dd8:1bc0)]   (Sid: 38) Server -> Client : 686 bytes  (Service=HTTP)
+[Proxy Recording  ( dd8:1bc0)] Sent 686 bytes to client @ 192.168.176.1:14509
+[Proxy Recording  ( dd8:33e4)] Client request from @ 192.168.176.1:14511
+[Proxy Recording  ( dd8:2424)] Trying to connect to http://192.168.176.1:1080/cgi-bin/nav.pl?in=home ...
+[Proxy Recording  ( dd8:2424)] Trying to connect to http://192.168.176.1:1080/cgi-bin/nav.pl?in=home ...
+[Proxy Recording  ( dd8:2424)] Received response of 183 header and 1488 body bytes from http://192.168.176.1:1080/cgi-bin/nav.pl?in=home
+[Web Request      ( dd8:2424)] "GET http://192.168.176.1:1080/cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( dd8:2424)]   (Sid: 39) Client -> Server @ : 582 bytes (Service=HTTP)
+[Network Analyzer ( dd8:2424)]   (Sid: 39) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer ( dd8:2424)]   (Sid: 39) Server -> Client : 1488 bytes  (Service=HTTP)
+[Proxy Recording  ( dd8:2424)] Sent 1488 bytes to client @ 192.168.176.1:14511
+[User action                 ] EndTransactionEvent signoff 

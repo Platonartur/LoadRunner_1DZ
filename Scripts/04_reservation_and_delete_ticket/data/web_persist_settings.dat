@@ -1,0 +1,21 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2021/05/30 08:01:24
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2021/05/30 09:23:35
+StartRecordingIsDst_2=0
+StartRecordingGMT_3=2021/05/30 09:25:19
+StartRecordingIsDst_3=0
+StartRecordingGMT_4=2021/05/30 09:30:05
+StartRecordingIsDst_4=0
+StartRecordingGMT_5=2021/05/30 09:30:32
+StartRecordingIsDst_5=0
+StartRecordingGMT_6=2021/05/30 09:35:46
+StartRecordingIsDst_6=0
+StartRecordingGMT_7=2021/05/30 09:36:30
+StartRecordingIsDst_7=0
+StartRecordingGMT_8=2021/05/30 09:38:15
+StartRecordingIsDst_8=0
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36
+[Security]
+UsingPersistForAuthentication=1
