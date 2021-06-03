@@ -1,7 +1,7 @@
 [General]
 Type=Multi
 DefaultCfg=default.cfg
-ParameterFile=01_buy_some_tickets.prm
+ParameterFile=01_buy_ticket.prm
 GlobalParameterFile=
 NewFunctionHeader=1
 RunType=cci

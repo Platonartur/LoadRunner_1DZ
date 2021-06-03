@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VugenScriptMetadata>
-  <ScriptName>05_buy_and_delete_ticket</ScriptName>
+  <ScriptName>05_delete_and_buy_ticket</ScriptName>
   <Protocol>Web - HTTP/HTML</Protocol>
   <ActionFiles>
     <FileEntry Name="vuser_init.c" Filter="2" />
@@ -8,7 +8,7 @@
     <FileEntry Name="vuser_end.c" Filter="2" />
   </ActionFiles>
   <GeneralFiles>
-    <FileEntry Name="05_buy_and_delete_ticket.usr" Filter="4" />
+    <FileEntry Name="05_delete_and_buy_ticket.usr" Filter="4" />
     <FileEntry Name="default.cfg" Filter="4" />
     <FileEntry Name="default.usp" Filter="4" />
     <FileEntry Name="05_buy_and_delete_ticket.prm" Filter="2" />
@@ -17,6 +17,7 @@
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="05_buy_and_delete_ticket.c.pickle" Filter="1" />
     <FileEntry Name="05_buy_and_delete_ticket.ci" Filter="1" />
+    <FileEntry Name="05_buy_and_delete_ticket.prm.bak" Filter="1" />
     <FileEntry Name="85440314440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
