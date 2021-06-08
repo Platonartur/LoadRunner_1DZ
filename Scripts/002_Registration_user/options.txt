@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\plato\Documents\SharpDevelop Projects\002_Registration_user
+-ID:\Program Files (x86)\include
+-ec:\users\plato\documents\sharpdevelop projects\002_registration_user\\logfile.log
+c:\users\plato\documents\sharpdevelop projects\002_registration_user\\combined_002_Registration_user.c
+c:\users\plato\documents\sharpdevelop projects\002_registration_user\\pre_cci.c

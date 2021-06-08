@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\plato\Desktop\LRHomeWork1\Scripts\005_Delete_one_fllight
+-ID:\Program Files (x86)\include
+-ec:\users\plato\desktop\lrhomework1\scripts\005_delete_one_fllight\\logfile.log
+c:\users\plato\desktop\lrhomework1\scripts\005_delete_one_fllight\\combined_005_Delete_one_fllight.c
+c:\users\plato\desktop\lrhomework1\scripts\005_delete_one_fllight\\pre_cci.c

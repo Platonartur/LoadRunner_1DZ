@@ -1,0 +1,10 @@
+[t4]
+FileName1=t2.html
+URL1=http://172.24.48.1:1080/cgi-bin/welcome.pl?signOff=true
+Total=2
+SnapshotXmlFile=snapshot_4.xml
+FileName2=t4f0.html
+URL2=http://172.24.48.1:1080/cgi-bin/nav.pl?in=home
+ContentType=text/html
+FrameIndex2=0.0
+UseFrameIndex=1

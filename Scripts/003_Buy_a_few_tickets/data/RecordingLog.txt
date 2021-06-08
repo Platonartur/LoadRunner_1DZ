@@ -1,0 +1,502 @@
+[API Trapper      (4d58: fc0)] Recording in 32-bit mode: D:\Program Files (x86)\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (45f4:3f9c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (45f4:3f9c)] Load Network Traffic Analyzers:
+[Network Analyzer (45f4:3f9c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (45f4:3f9c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (45f4:3f9c)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (45f4:3f9c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (45f4:3f9c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (45f4:3f9c)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (45f4:3f9c)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (45f4:3f9c)] Started proxy on port 8888 listening IP 172.24.48.1, 127.0.0.1, in synchronous mode
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1043
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1044
+[Proxy Recording  (45f4: 884)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (45f4:69f4)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (45f4: 884)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (45f4:69f4)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording.Error (45f4: 884)] Failed to connect to server http://ipv6.msftconnecttest.com/connecttest.txt.
+Message=NameResolutionFailure, status=Невозможно разрешить удаленное имя: 'ipv6.msftconnecttest.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (45f4:69f4)] Received response of 481 header and 22 body bytes from http://www.msftconnecttest.com/connecttest.txt
+[Proxy Recording  (45f4:69f4)] Sent 22 bytes to client @ 172.24.48.1:1044
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:29088
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:28707
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:24202
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1024
+[Proxy Recording  (45f4:69f4)] Trying to connect to http://172.24.48.1:1080/WebTours/ ...
+[Proxy Recording  (45f4:69f4)] Trying to connect to http://172.24.48.1:1080/WebTours/ ...
+[Proxy Recording  (45f4:69f4)] Received response of 168 header and 0 body bytes from http://172.24.48.1:1080/WebTours/
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1026
+[Web Request      (45f4:69f4)] "GET http://172.24.48.1:1080/WebTours/"   
+[Network Analyzer (45f4:69f4)]   (Sid:  1) Client -> Server @ : 754 bytes (Service=HTTP)
+[Network Analyzer (45f4:69f4)]   (Sid:  1) Server -> Client : 195 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:69f4)] Sent 0 bytes to client @ 172.24.48.1:28707
+[Proxy Recording  (45f4:6998)] Trying to connect to http://172.24.48.1:1080/WebTours/header.html ...
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1027
+[Proxy Recording  (45f4:6998)] Trying to connect to http://172.24.48.1:1080/WebTours/header.html ...
+[Proxy Recording  (45f4:3084)] Trying to connect to http://172.24.48.1:1080/cgi-bin/welcome.pl?signOff=true ...
+[Proxy Recording  (45f4:6998)] Received response of 112 header and 0 body bytes from http://172.24.48.1:1080/WebTours/header.html
+[Proxy Recording  (45f4:3084)] Trying to connect to http://172.24.48.1:1080/cgi-bin/welcome.pl?signOff=true ...
+[Web Request      (45f4:6998)] "GET http://172.24.48.1:1080/WebTours/header.html"   
+[Network Analyzer (45f4:6998)]   (Sid:  2) Client -> Server @ : 785 bytes (Service=HTTP)
+[Network Analyzer (45f4:6998)]   (Sid:  2) Server -> Client : 139 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:6998)] Sent 0 bytes to client @ 172.24.48.1:29088
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1032
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:2309
+[Proxy Recording  (45f4:69f4)] Trying to connect to http://172.24.48.1:1080/WebTours/images/hp_logo.png ...
+[Proxy Recording  (45f4:6998)] Trying to connect to http://172.24.48.1:1080/WebTours/images/webtours.png ...
+[Proxy Recording  (45f4:69f4)] Trying to connect to http://172.24.48.1:1080/WebTours/images/hp_logo.png ...
+[Proxy Recording  (45f4:6998)] Trying to connect to http://172.24.48.1:1080/WebTours/images/webtours.png ...
+[Proxy Recording  (45f4:69f4)] Received response of 111 header and 0 body bytes from http://172.24.48.1:1080/WebTours/images/hp_logo.png
+[Proxy Recording  (45f4:6998)] Received response of 112 header and 0 body bytes from http://172.24.48.1:1080/WebTours/images/webtours.png
+[Web Request      (45f4:69f4)] "GET http://172.24.48.1:1080/WebTours/images/hp_logo.png"   
+[Network Analyzer (45f4:69f4)]   (Sid:  3) Client -> Server @ : 701 bytes (Service=HTTP)
+[Network Analyzer (45f4:69f4)]   (Sid:  3) Server -> Client : 138 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:69f4)] Sent 0 bytes to client @ 172.24.48.1:1032
+[Web Request      (45f4:6998)] "GET http://172.24.48.1:1080/WebTours/images/webtours.png"   
+[Network Analyzer (45f4:6998)]   (Sid:  4) Client -> Server @ : 703 bytes (Service=HTTP)
+[Network Analyzer (45f4:6998)]   (Sid:  4) Server -> Client : 139 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:6998)] Sent 0 bytes to client @ 172.24.48.1:2309
+[Proxy Recording  (45f4:3084)] Received response of 242 header and 686 body bytes from http://172.24.48.1:1080/cgi-bin/welcome.pl?signOff=true
+[Web Request      (45f4:3084)] "GET http://172.24.48.1:1080/cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (45f4:3084)]   (Sid:  5) Client -> Server @ : 695 bytes (Service=HTTP)
+[Network Analyzer (45f4:3084)]   (Sid:  5) Server -> Client : 231 bytes  (Service=HTTP)
+[Network Analyzer (45f4:3084)]   (Sid:  5) Server -> Client : 686 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:3084)] Sent 686 bytes to client @ 172.24.48.1:1027
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:32680
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:25078
+[Proxy Recording  (45f4:69f4)] Trying to connect to http://172.24.48.1:1080/cgi-bin/nav.pl?in=home ...
+[Proxy Recording  (45f4:1e44)] Trying to connect to http://172.24.48.1:1080/WebTours/home.html ...
+[Proxy Recording  (45f4:69f4)] Trying to connect to http://172.24.48.1:1080/cgi-bin/nav.pl?in=home ...
+[Proxy Recording  (45f4:1e44)] Trying to connect to http://172.24.48.1:1080/WebTours/home.html ...
+[Proxy Recording  (45f4:1e44)] Received response of 112 header and 0 body bytes from http://172.24.48.1:1080/WebTours/home.html
+[Web Request      (45f4:1e44)] "GET http://172.24.48.1:1080/WebTours/home.html"   
+[Network Analyzer (45f4:1e44)]   (Sid:  6) Client -> Server @ : 675 bytes (Service=HTTP)
+[Network Analyzer (45f4:1e44)]   (Sid:  6) Server -> Client : 139 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:1e44)] Sent 0 bytes to client @ 172.24.48.1:25078
+[Proxy Recording  (45f4:69f4)] Received response of 183 header and 1490 body bytes from http://172.24.48.1:1080/cgi-bin/nav.pl?in=home
+[Web Request      (45f4:69f4)] "GET http://172.24.48.1:1080/cgi-bin/nav.pl?in=home"   
+[Network Analyzer (45f4:69f4)]   (Sid:  7) Client -> Server @ : 578 bytes (Service=HTTP)
+[Network Analyzer (45f4:69f4)]   (Sid:  7) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer (45f4:69f4)]   (Sid:  7) Server -> Client : 1490 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:69f4)] Sent 1490 bytes to client @ 172.24.48.1:32680
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1281
+[Proxy Recording  (45f4:1e44)] Trying to connect to http://172.24.48.1:1080/WebTours/images/mer_login.gif ...
+[Proxy Recording  (45f4:1e44)] Trying to connect to http://172.24.48.1:1080/WebTours/images/mer_login.gif ...
+[Proxy Recording  (45f4:1e44)] Received response of 111 header and 0 body bytes from http://172.24.48.1:1080/WebTours/images/mer_login.gif
+[Web Request      (45f4:1e44)] "GET http://172.24.48.1:1080/WebTours/images/mer_login.gif"   
+[Network Analyzer (45f4:1e44)]   (Sid:  8) Client -> Server @ : 575 bytes (Service=HTTP)
+[Network Analyzer (45f4:1e44)]   (Sid:  8) Server -> Client : 138 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:1e44)] Sent 0 bytes to client @ 172.24.48.1:1281
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1027
+[Proxy Recording  (45f4:3084)] Trying to connect to http://172.24.48.1:1080/favicon.ico ...
+[Proxy Recording  (45f4:3084)] Trying to connect to http://172.24.48.1:1080/favicon.ico ...
+[Proxy Recording.Error (45f4:3084)] Failed to connect to server http://172.24.48.1:1080/favicon.ico.
+Message=ProtocolError, status=Удаленный сервер возвратил ошибку: (404) Не найден.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (45f4:3084)] Received response of 136 header and 209 body bytes from http://172.24.48.1:1080/favicon.ico
+[Web Request      (45f4:3084)] "GET http://172.24.48.1:1080/favicon.ico"   
+[Network Analyzer (45f4:3084)]   (Sid:  9) Client -> Server @ : 444 bytes (Service=HTTP)
+[Network Analyzer (45f4:3084)]   (Sid:  9) Server -> Client : 160 bytes  (Service=HTTP)
+[Network Analyzer (45f4:3084)]   (Sid:  9) Server -> Client : 209 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:3084)] Sent 209 bytes to client @ 172.24.48.1:1027
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1032
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1027
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:3308
+[Proxy Recording  (45f4: 884)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=91 ...
+[Proxy Recording  (45f4: 884)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=91 ...
+[Proxy Recording  (45f4: 884)] Received response of 502 header and 506 body bytes from https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=91
+[Web Request      (45f4: 884)] "GET https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=91"   
+[Network Analyzer (45f4: 884)]   (Sid: 10) Client -> Server @ : 481 bytes (SSL)(Service=HTTP)
+[Network Analyzer (45f4: 884)]   (Sid: 10) Server -> Client : 519 bytes (SSL) (Service=HTTP)
+[Network Analyzer (45f4: 884)]   (Sid: 10) Server -> Client : 506 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (45f4: 884)] Sent 506 bytes to client @ 172.24.48.1:24202
+[Proxy Recording  (45f4: c88)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Proxy Recording  (45f4: c88)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Proxy Recording  (45f4: c88)] Received response of 1538 header and 197 body bytes from https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+[Network Analyzer (45f4: c88)]   (Sid: 11) Client -> Server @ : 2212 bytes (SSL)(Service=HTTP)
+[Web Request      (45f4: c88)] "POST https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (45f4: c88)]   (Sid: 11) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer (45f4: c88)]   (Sid: 11) Server -> Client : 1527 bytes (SSL) (Service=HTTP)
+[Network Analyzer (45f4: c88)]   (Sid: 11) Server -> Client : 197 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (45f4: c88)] Sent 197 bytes to client @ 172.24.48.1:1024
+[Proxy Recording  (45f4: e08)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (45f4: e08)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (45f4: e08)] Received response of 587 header and 1118 body bytes from https://www.googleapis.com:443/oauth2/v4/token
+[Network Analyzer (45f4: e08)]   (Sid: 12) Client -> Server @ : 464 bytes (SSL)(Service=HTTP)
+[Web Request      (45f4: e08)] "POST https://www.googleapis.com/oauth2/v4/token"   
+[Network Analyzer (45f4: e08)]   (Sid: 12) Client -> Server @ : 230 bytes (SSL)(Service=HTTP)
+[Network Analyzer (45f4: e08)]   (Sid: 12) Server -> Client : 576 bytes (SSL) (Service=HTTP)
+[Network Analyzer (45f4: e08)]   (Sid: 12) Server -> Client : 1118 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (45f4: e08)] Sent 1118 bytes to client @ 172.24.48.1:1026
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1024
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1026
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:11837
+[Proxy Recording  (45f4: 884)] Trying to connect to http://cepexqeguwn/ ...
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1033
+[Proxy Recording  (45f4: 884)] Trying to connect to http://cepexqeguwn/ ...
+[Proxy Recording  (45f4:69f4)] Trying to connect to http://efoqebbndvndcr/ ...
+[Proxy Recording  (45f4: e08)] Trying to connect to http://cmfvqqeikq/ ...
+[Proxy Recording  (45f4:69f4)] Trying to connect to http://efoqebbndvndcr/ ...
+[Proxy Recording  (45f4: e08)] Trying to connect to http://cmfvqqeikq/ ...
+[User action                 ] StartTransactionEvent login [Proxy Recording  (45f4:6998)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (45f4:6998)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (45f4:3084)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=10:2181645808&cup2hreq=54b4963d1d874085fdeb0ba99561a5198ca5ea0bd8dee4d651aac8cd2dbf8e7e ...
+[Proxy Recording  (45f4:6998)] Received response of 587 header and 354 body bytes from https://www.googleapis.com:443/oauth2/v4/token
+[Network Analyzer (45f4:6998)]   (Sid: 13) Client -> Server @ : 440 bytes (SSL)(Service=HTTP)
+[Web Request      (45f4:6998)] "POST https://www.googleapis.com/oauth2/v4/token"   
+[Network Analyzer (45f4:6998)]   (Sid: 13) Client -> Server @ : 279 bytes (SSL)(Service=HTTP)
+[Network Analyzer (45f4:6998)]   (Sid: 13) Server -> Client : 576 bytes (SSL) (Service=HTTP)
+[Network Analyzer (45f4:6998)]   (Sid: 13) Server -> Client : 354 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (45f4:6998)] Sent 354 bytes to client @ 172.24.48.1:3308
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:8528
+[Proxy Recording  (45f4:3084)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=10:2181645808&cup2hreq=54b4963d1d874085fdeb0ba99561a5198ca5ea0bd8dee4d651aac8cd2dbf8e7e ...
+[Proxy Recording  (45f4: c88)] Trying to connect to https://oauthaccountmanager.googleapis.com:443/v1/issuetoken ...
+[Proxy Recording  (45f4:3084)] Received response of 1253 header and 652 body bytes from https://update.googleapis.com:443/service/update2/json?cup2key=10:2181645808&cup2hreq=54b4963d1d874085fdeb0ba99561a5198ca5ea0bd8dee4d651aac8cd2dbf8e7e
+[Network Analyzer (45f4:3084)]   (Sid: 14) Client -> Server @ : 1284 bytes (SSL)(Service=HTTP)
+[Web Request      (45f4:3084)] "POST https://update.googleapis.com/service/update2/json?cup2key=10:2181645808&cup2hreq=54b4963d1d874085fdeb0ba99561a5198ca5ea0bd8dee4d651aac8cd2dbf8e7e"   
+[Network Analyzer (45f4:3084)]   (Sid: 14) Client -> Server @ : 6596 bytes (SSL)(Service=HTTP)
+[Network Analyzer (45f4:3084)]   (Sid: 14) Server -> Client : 1242 bytes (SSL) (Service=HTTP)
+[Network Analyzer (45f4:3084)]   (Sid: 14) Server -> Client : 652 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (45f4:3084)] Sent 652 bytes to client @ 172.24.48.1:1027
+[Proxy Recording  (45f4: c88)] Trying to connect to https://oauthaccountmanager.googleapis.com:443/v1/issuetoken ...
+[Proxy Recording  (45f4: c88)] Received response of 564 header and 451 body bytes from https://oauthaccountmanager.googleapis.com:443/v1/issuetoken
+[Network Analyzer (45f4: c88)]   (Sid: 15) Client -> Server @ : 785 bytes (SSL)(Service=HTTP)
+[Web Request      (45f4: c88)] "POST https://oauthaccountmanager.googleapis.com/v1/issuetoken"   
+[Network Analyzer (45f4: c88)]   (Sid: 15) Client -> Server @ : 533 bytes (SSL)(Service=HTTP)
+[Network Analyzer (45f4: c88)]   (Sid: 15) Server -> Client : 553 bytes (SSL) (Service=HTTP)
+[Network Analyzer (45f4: c88)]   (Sid: 15) Server -> Client : 451 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (45f4: c88)] Sent 451 bytes to client @ 172.24.48.1:1024
+[Proxy Recording  (45f4: b3c)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D ...
+[Proxy Recording  (45f4: b3c)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D ...
+[Proxy Recording  (45f4: b3c)] Received response of 698 header and 2272 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D
+[Network Analyzer (45f4: b3c)]   (Sid: 16) Client -> Server @ : 979 bytes (SSL)(Service=HTTP)
+[Web Request      (45f4: b3c)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D"   
+[Network Analyzer (45f4: b3c)]   (Sid: 16) Client -> Server @ : 1504 bytes (SSL)(Service=HTTP)
+[Network Analyzer (45f4: b3c)]   (Sid: 16) Server -> Client : 687 bytes (SSL) (Service=HTTP)
+[Network Analyzer (45f4: b3c)]   (Sid: 16) Server -> Client : 2272 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (45f4: b3c)] Sent 2272 bytes to client @ 172.24.48.1:8528
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1024
+[Proxy Recording  (45f4: c88)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D ...
+[Proxy Recording  (45f4: c88)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D ...
+[Proxy Recording  (45f4: c88)] Received response of 698 header and 539 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D
+[Network Analyzer (45f4: c88)]   (Sid: 17) Client -> Server @ : 955 bytes (SSL)(Service=HTTP)
+[Web Request      (45f4: c88)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=0Wg3jeL2kQdWabKEihGlrQ%3D%3D"   
+[Network Analyzer (45f4: c88)]   (Sid: 17) Client -> Server @ : 1309 bytes (SSL)(Service=HTTP)
+[Network Analyzer (45f4: c88)]   (Sid: 17) Server -> Client : 687 bytes (SSL) (Service=HTTP)
+[Network Analyzer (45f4: c88)]   (Sid: 17) Server -> Client : 539 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (45f4: c88)] Sent 539 bytes to client @ 172.24.48.1:1024
+[Proxy Recording.Error (45f4:69f4)] Failed to connect to server http://efoqebbndvndcr/.
+Message=NameResolutionFailure, status=Невозможно разрешить удаленное имя: 'efoqebbndvndcr'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording.Error (45f4: e08)] Failed to connect to server http://cmfvqqeikq/.
+Message=NameResolutionFailure, status=Невозможно разрешить удаленное имя: 'cmfvqqeikq'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording.Error (45f4: 884)] Failed to connect to server http://cepexqeguwn/.
+Message=NameResolutionFailure, status=Невозможно разрешить удаленное имя: 'cepexqeguwn'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1024
+[Proxy Recording  (45f4:6998)] Trying to connect to http://172.24.48.1:1080/cgi-bin/login.pl ...
+[Proxy Recording  (45f4:6998)] Trying to connect to http://172.24.48.1:1080/cgi-bin/login.pl ...
+[Proxy Recording  (45f4:6998)] Received response of 306 header and 481 body bytes from http://172.24.48.1:1080/cgi-bin/login.pl
+[Network Analyzer (45f4:6998)]   (Sid: 18) Client -> Server @ : 693 bytes (Service=HTTP)
+[Web Request      (45f4:6998)] "POST http://172.24.48.1:1080/cgi-bin/login.pl"   
+[Network Analyzer (45f4:6998)]   (Sid: 18) Client -> Server @ : 125 bytes (Service=HTTP)
+[Network Analyzer (45f4:6998)]   (Sid: 18) Server -> Client : 295 bytes  (Service=HTTP)
+[Network Analyzer (45f4:6998)]   (Sid: 18) Server -> Client : 481 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:6998)] Sent 481 bytes to client @ 172.24.48.1:1024
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:25166
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1024
+[Proxy Recording  (45f4: e08)] Trying to connect to http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=home ...
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:9018
+[Proxy Recording  (45f4: c88)] Trying to connect to http://172.24.48.1:1080/cgi-bin/login.pl?intro=true ...
+[Proxy Recording  (45f4: e08)] Trying to connect to http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=home ...
+[Proxy Recording  (45f4: c88)] Trying to connect to http://172.24.48.1:1080/cgi-bin/login.pl?intro=true ...
+[Proxy Recording  (45f4: e08)] Received response of 183 header and 1482 body bytes from http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=home
+[Proxy Recording  (45f4: c88)] Received response of 156 header and 920 body bytes from http://172.24.48.1:1080/cgi-bin/login.pl?intro=true
+[Web Request      (45f4: e08)] "GET http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (45f4: e08)]   (Sid: 19) Client -> Server @ : 703 bytes (Service=HTTP)
+[Network Analyzer (45f4: e08)]   (Sid: 19) Server -> Client : 172 bytes  (Service=HTTP)
+[Proxy Recording  (45f4: b3c)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Network Analyzer (45f4: e08)]   (Sid: 19) Server -> Client : 1482 bytes  (Service=HTTP)
+[Proxy Recording  (45f4: e08)] Sent 1482 bytes to client @ 172.24.48.1:1024
+[Proxy Recording  (45f4: b3c)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1024
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1026
+[Proxy Recording  (45f4:69f4)] Trying to connect to http://172.24.48.1:1080/WebTours/images/flights.gif ...
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1029
+[Proxy Recording  (45f4:6998)] Trying to connect to http://172.24.48.1:1080/WebTours/images/itinerary.gif ...
+[Proxy Recording  (45f4:69f4)] Trying to connect to http://172.24.48.1:1080/WebTours/images/flights.gif ...
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1031
+[Proxy Recording  (45f4: e08)] Trying to connect to http://172.24.48.1:1080/WebTours/images/in_home.gif ...
+[Proxy Recording  (45f4:3084)] Trying to connect to http://172.24.48.1:1080/WebTours/images/signoff.gif ...
+[Proxy Recording  (45f4:6998)] Trying to connect to http://172.24.48.1:1080/WebTours/images/itinerary.gif ...
+[Proxy Recording  (45f4: e08)] Trying to connect to http://172.24.48.1:1080/WebTours/images/in_home.gif ...
+[Proxy Recording  (45f4:3084)] Trying to connect to http://172.24.48.1:1080/WebTours/images/signoff.gif ...
+[Proxy Recording  (45f4: e08)] Received response of 111 header and 0 body bytes from http://172.24.48.1:1080/WebTours/images/in_home.gif
+[Proxy Recording  (45f4:3084)] Received response of 111 header and 0 body bytes from http://172.24.48.1:1080/WebTours/images/signoff.gif
+[Web Request      (45f4: c88)] "GET http://172.24.48.1:1080/cgi-bin/login.pl?intro=true"   
+[Network Analyzer (45f4: c88)]   (Sid: 20) Client -> Server @ : 698 bytes (Service=HTTP)
+[Network Analyzer (45f4: c88)]   (Sid: 20) Server -> Client : 145 bytes  (Service=HTTP)
+[Network Analyzer (45f4: c88)]   (Sid: 20) Server -> Client : 920 bytes  (Service=HTTP)
+[Proxy Recording  (45f4: c88)] Sent 920 bytes to client @ 172.24.48.1:9018
+[Proxy Recording  (45f4:6998)] Received response of 112 header and 0 body bytes from http://172.24.48.1:1080/WebTours/images/itinerary.gif
+[Proxy Recording  (45f4:69f4)] Received response of 112 header and 0 body bytes from http://172.24.48.1:1080/WebTours/images/flights.gif
+[Web Request      (45f4: e08)] "GET http://172.24.48.1:1080/WebTours/images/in_home.gif"   
+[Network Analyzer (45f4: e08)]   (Sid: 21) Client -> Server @ : 713 bytes (Service=HTTP)
+[Network Analyzer (45f4: e08)]   (Sid: 21) Server -> Client : 138 bytes  (Service=HTTP)
+[Proxy Recording  (45f4: e08)] Sent 0 bytes to client @ 172.24.48.1:1029
+[Web Request      (45f4:3084)] "GET http://172.24.48.1:1080/WebTours/images/signoff.gif"   
+[Network Analyzer (45f4:3084)]   (Sid: 22) Client -> Server @ : 713 bytes (Service=HTTP)
+[Network Analyzer (45f4:3084)]   (Sid: 22) Server -> Client : 138 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:3084)] Sent 0 bytes to client @ 172.24.48.1:1031
+[Web Request      (45f4:6998)] "GET http://172.24.48.1:1080/WebTours/images/itinerary.gif"   
+[Network Analyzer (45f4:6998)]   (Sid: 23) Client -> Server @ : 716 bytes (Service=HTTP)
+[Network Analyzer (45f4:6998)]   (Sid: 23) Server -> Client : 139 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:6998)] Sent 0 bytes to client @ 172.24.48.1:1026
+[Proxy Recording  (45f4: b3c)] Received response of 587 header and 350 body bytes from https://www.googleapis.com:443/oauth2/v4/token
+[Web Request      (45f4:69f4)] "GET http://172.24.48.1:1080/WebTours/images/flights.gif"   
+[Network Analyzer (45f4:69f4)]   (Sid: 24) Client -> Server @ : 714 bytes (Service=HTTP)
+[Network Analyzer (45f4:69f4)]   (Sid: 24) Server -> Client : 139 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:69f4)] Sent 0 bytes to client @ 172.24.48.1:1024
+[Network Analyzer (45f4: b3c)]   (Sid: 25) Client -> Server @ : 440 bytes (SSL)(Service=HTTP)
+[Web Request      (45f4: b3c)] "POST https://www.googleapis.com/oauth2/v4/token"   
+[Network Analyzer (45f4: b3c)]   (Sid: 25) Client -> Server @ : 298 bytes (SSL)(Service=HTTP)
+[Network Analyzer (45f4: b3c)]   (Sid: 25) Server -> Client : 576 bytes (SSL) (Service=HTTP)
+[Network Analyzer (45f4: b3c)]   (Sid: 25) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (45f4: b3c)] Sent 350 bytes to client @ 172.24.48.1:25166
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1024
+[Proxy Recording  (45f4: 884)] Trying to connect to https://passwordsleakcheck-pa.googleapis.com:443/v1/leaks:lookupSingle ...
+[Proxy Recording  (45f4: 884)] Trying to connect to https://passwordsleakcheck-pa.googleapis.com:443/v1/leaks:lookupSingle ...
+[Proxy Recording  (45f4: 884)] Received response of 491 header and 5646 body bytes from https://passwordsleakcheck-pa.googleapis.com:443/v1/leaks:lookupSingle
+[Network Analyzer (45f4: 884)]   (Sid: 26) Client -> Server @ : 785 bytes (SSL)(Service=HTTP)
+[Web Request      (45f4: 884)] "POST https://passwordsleakcheck-pa.googleapis.com/v1/leaks:lookupSingle"   
+[Network Analyzer (45f4: 884)]   (Sid: 26) Client -> Server @ : 43 bytes (SSL)(Service=HTTP)
+[Network Analyzer (45f4: 884)]   (Sid: 26) Server -> Client : 480 bytes (SSL) (Service=HTTP)
+[Network Analyzer (45f4: 884)]   (Sid: 26) Server -> Client : 5646 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (45f4: 884)] Sent 5646 bytes to client @ 172.24.48.1:1024
+[User action                 ] EndTransactionEvent login [Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1031
+[Proxy Recording  (45f4:69f4)] Trying to connect to https://query1.finance.yahoo.com:443/v8/finance/chart/CLOV?region=US&lang=en-US&includePrePost=false&interval=2m&useYfid=true&range=1d&corsDomain=finance.yahoo.com&.tsrc=finance ...
+[Proxy Recording  (45f4:69f4)] Trying to connect to https://query1.finance.yahoo.com:443/v8/finance/chart/CLOV?region=US&lang=en-US&includePrePost=false&interval=2m&useYfid=true&range=1d&corsDomain=finance.yahoo.com&.tsrc=finance ...
+[Proxy Recording  (45f4:69f4)] Received response of 878 header and 4945 body bytes from https://query1.finance.yahoo.com:443/v8/finance/chart/CLOV?region=US&lang=en-US&includePrePost=false&interval=2m&useYfid=true&range=1d&corsDomain=finance.yahoo.com&.tsrc=finance
+[Proxy Recording  (45f4:69f4)] Sent 4945 bytes to client @ 172.24.48.1:1031
+[User action                 ] StartTransactionEvent flights [Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1024
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1031
+[Proxy Recording  (45f4:3084)] Trying to connect to http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search ...
+[Proxy Recording  (45f4: c88)] Trying to connect to http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search ...
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1044
+[Proxy Recording  (45f4:3084)] Trying to connect to http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search ...
+[Proxy Recording  (45f4: e08)] Trying to connect to http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search ...
+[Proxy Recording  (45f4: c88)] Trying to connect to http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search ...
+[Proxy Recording  (45f4: e08)] Trying to connect to http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search ...
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:32101
+[Proxy Recording  (45f4:69f4)] Trying to connect to http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search ...
+[Proxy Recording  (45f4:69f4)] Trying to connect to http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search ...
+[Proxy Recording  (45f4: e08)] Received response of 143 header and 616 body bytes from http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search
+[Proxy Recording  (45f4:3084)] Received response of 143 header and 616 body bytes from http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search
+[Proxy Recording  (45f4: c88)] Received response of 143 header and 616 body bytes from http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search
+[Web Request      (45f4: e08)] "GET http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (45f4: e08)]   (Sid: 27) Client -> Server @ : 717 bytes (Service=HTTP)
+[Proxy Recording  (45f4:69f4)] Received response of 143 header and 616 body bytes from http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search
+[Network Analyzer (45f4: e08)]   (Sid: 27) Server -> Client : 132 bytes  (Service=HTTP)
+[Network Analyzer (45f4: e08)]   (Sid: 27) Server -> Client : 616 bytes  (Service=HTTP)
+[Proxy Recording.Error (45f4: e08)] Exception is caught while sending data to http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Web Request      (45f4:3084)] "GET http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (45f4:3084)]   (Sid: 28) Client -> Server @ : 717 bytes (Service=HTTP)
+[Network Analyzer (45f4:3084)]   (Sid: 28) Server -> Client : 132 bytes  (Service=HTTP)
+[Network Analyzer (45f4:3084)]   (Sid: 28) Server -> Client : 616 bytes  (Service=HTTP)
+[Proxy Recording.Error (45f4:3084)] Exception is caught while sending data to http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Web Request      (45f4: c88)] "GET http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (45f4: c88)]   (Sid: 29) Client -> Server @ : 717 bytes (Service=HTTP)
+[Network Analyzer (45f4: c88)]   (Sid: 29) Server -> Client : 132 bytes  (Service=HTTP)
+[Network Analyzer (45f4: c88)]   (Sid: 29) Server -> Client : 616 bytes  (Service=HTTP)
+[Proxy Recording.Error (45f4: c88)] Exception is caught while sending data to http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Web Request      (45f4:69f4)] "GET http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (45f4:69f4)]   (Sid: 30) Client -> Server @ : 717 bytes (Service=HTTP)
+[Network Analyzer (45f4:69f4)]   (Sid: 30) Server -> Client : 132 bytes  (Service=HTTP)
+[Network Analyzer (45f4:69f4)]   (Sid: 30) Server -> Client : 616 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:69f4)] Sent 616 bytes to client @ 172.24.48.1:32101
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1538
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:28508
+[Proxy Recording  (45f4: 884)] Trying to connect to http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=flights ...
+[Proxy Recording  (45f4:3084)] Trying to connect to http://172.24.48.1:1080/cgi-bin/reservations.pl?page=welcome ...
+[Proxy Recording  (45f4: 884)] Trying to connect to http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=flights ...
+[Proxy Recording  (45f4:3084)] Trying to connect to http://172.24.48.1:1080/cgi-bin/reservations.pl?page=welcome ...
+[Proxy Recording  (45f4: 884)] Received response of 183 header and 1482 body bytes from http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=flights
+[Web Request      (45f4: 884)] "GET http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=flights"   
+[Proxy Recording  (45f4:3084)] Received response of 183 header and 4246 body bytes from http://172.24.48.1:1080/cgi-bin/reservations.pl?page=welcome
+[Network Analyzer (45f4: 884)]   (Sid: 31) Client -> Server @ : 720 bytes (Service=HTTP)
+[Network Analyzer (45f4: 884)]   (Sid: 31) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer (45f4: 884)]   (Sid: 31) Server -> Client : 1482 bytes  (Service=HTTP)
+[Proxy Recording  (45f4: 884)] Sent 1482 bytes to client @ 172.24.48.1:1538
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:11297
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:6354
+[Proxy Recording  (45f4:69f4)] Trying to connect to http://172.24.48.1:1080/WebTours/images/in_flights.gif ...
+[Proxy Recording  (45f4: b3c)] Trying to connect to http://172.24.48.1:1080/WebTours/images/home.gif ...
+[Proxy Recording  (45f4:69f4)] Trying to connect to http://172.24.48.1:1080/WebTours/images/in_flights.gif ...
+[Proxy Recording  (45f4: b3c)] Trying to connect to http://172.24.48.1:1080/WebTours/images/home.gif ...
+[Proxy Recording  (45f4:69f4)] Received response of 112 header and 0 body bytes from http://172.24.48.1:1080/WebTours/images/in_flights.gif
+[Web Request      (45f4:3084)] "GET http://172.24.48.1:1080/cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (45f4:3084)]   (Sid: 32) Client -> Server @ : 721 bytes (Service=HTTP)
+[Network Analyzer (45f4:3084)]   (Sid: 32) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer (45f4:3084)]   (Sid: 32) Server -> Client : 4246 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:3084)] Sent 4246 bytes to client @ 172.24.48.1:28508
+[Proxy Recording  (45f4: b3c)] Received response of 112 header and 0 body bytes from http://172.24.48.1:1080/WebTours/images/home.gif
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:13650
+[Proxy Recording  (45f4: 884)] Trying to connect to http://172.24.48.1:1080/WebTours/images/button_next.gif ...
+[Proxy Recording  (45f4: 884)] Trying to connect to http://172.24.48.1:1080/WebTours/images/button_next.gif ...
+[Proxy Recording  (45f4: 884)] Received response of 111 header and 0 body bytes from http://172.24.48.1:1080/WebTours/images/button_next.gif
+[Web Request      (45f4:69f4)] "GET http://172.24.48.1:1080/WebTours/images/in_flights.gif"   
+[Network Analyzer (45f4:69f4)]   (Sid: 33) Client -> Server @ : 720 bytes (Service=HTTP)
+[Network Analyzer (45f4:69f4)]   (Sid: 33) Server -> Client : 139 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:69f4)] Sent 0 bytes to client @ 172.24.48.1:11297
+[Web Request      (45f4: b3c)] "GET http://172.24.48.1:1080/WebTours/images/home.gif"   
+[Network Analyzer (45f4: b3c)]   (Sid: 34) Client -> Server @ : 714 bytes (Service=HTTP)
+[Network Analyzer (45f4: b3c)]   (Sid: 34) Server -> Client : 139 bytes  (Service=HTTP)
+[Proxy Recording  (45f4: b3c)] Sent 0 bytes to client @ 172.24.48.1:6354
+[Web Request      (45f4: 884)] "GET http://172.24.48.1:1080/WebTours/images/button_next.gif"   
+[Network Analyzer (45f4: 884)]   (Sid: 35) Client -> Server @ : 721 bytes (Service=HTTP)
+[Network Analyzer (45f4: 884)]   (Sid: 35) Server -> Client : 138 bytes  (Service=HTTP)
+[Proxy Recording  (45f4: 884)] Sent 0 bytes to client @ 172.24.48.1:13650
+[Proxy Recording.Error (45f4:1e44)] Exception is caught while connecting to , message=Индекс находился вне границ массива.
+[User action                 ] EndTransactionEvent flights [User action                 ] StartTransactionEvent find_flight [Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1024
+[Proxy Recording  (45f4:539c)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=10:937615653&cup2hreq=3f3229e579f735f356be5e8c2156a3db8ce1b91234baaa6c93dc230c6047862c ...
+[Proxy Recording  (45f4:539c)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=10:937615653&cup2hreq=3f3229e579f735f356be5e8c2156a3db8ce1b91234baaa6c93dc230c6047862c ...
+[Proxy Recording  (45f4:539c)] Received response of 1253 header and 1702 body bytes from https://update.googleapis.com:443/service/update2/json?cup2key=10:937615653&cup2hreq=3f3229e579f735f356be5e8c2156a3db8ce1b91234baaa6c93dc230c6047862c
+[Network Analyzer (45f4:539c)]   (Sid: 36) Client -> Server @ : 1268 bytes (SSL)(Service=HTTP)
+[Web Request      (45f4:539c)] "POST https://update.googleapis.com/service/update2/json?cup2key=10:937615653&cup2hreq=3f3229e579f735f356be5e8c2156a3db8ce1b91234baaa6c93dc230c6047862c"   
+[Network Analyzer (45f4:539c)]   (Sid: 36) Client -> Server @ : 7506 bytes (SSL)(Service=HTTP)
+[Network Analyzer (45f4:539c)]   (Sid: 36) Server -> Client : 1242 bytes (SSL) (Service=HTTP)
+[Network Analyzer (45f4:539c)]   (Sid: 36) Server -> Client : 1702 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (45f4:539c)] Sent 1702 bytes to client @ 172.24.48.1:1024
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1034
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1024
+[Proxy Recording.Error (45f4:66ec)] Exception is caught while connecting to , message=Буфер выходных символов не достаточен для хранения закодированных символов, кодирование 'Unicode (UTF-8)' резерв 'System.Text.DecoderReplacementFallback'.
+Имя параметра: chars
+[Proxy Recording  (45f4:539c)] Trying to connect to https://storage.googleapis.com:443/update-delta/hfnkpimlhhgieaddgfemjhofmfblmnib/6655/6654/47a4eba5c6b327a9adff3080c3b56ea9cc23c8c657f47407c7a87bf02a89fd0f.crxd ...
+[Proxy Recording  (45f4:539c)] Trying to connect to https://storage.googleapis.com:443/update-delta/hfnkpimlhhgieaddgfemjhofmfblmnib/6655/6654/47a4eba5c6b327a9adff3080c3b56ea9cc23c8c657f47407c7a87bf02a89fd0f.crxd ...
+[Proxy Recording  (45f4:539c)] Received response of 853 header and 0 body bytes from https://storage.googleapis.com:443/update-delta/hfnkpimlhhgieaddgfemjhofmfblmnib/6655/6654/47a4eba5c6b327a9adff3080c3b56ea9cc23c8c657f47407c7a87bf02a89fd0f.crxd
+[Proxy Recording  (45f4:539c)] Sent 0 bytes to client @ 172.24.48.1:1034
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:33107
+[Proxy Recording  (45f4:66ec)] Trying to connect to http://172.24.48.1:1080/cgi-bin/reservations.pl ...
+[Proxy Recording  (45f4:66ec)] Trying to connect to http://172.24.48.1:1080/cgi-bin/reservations.pl ...
+[Proxy Recording  (45f4:66ec)] Received response of 183 header and 2445 body bytes from http://172.24.48.1:1080/cgi-bin/reservations.pl
+[Network Analyzer (45f4:66ec)]   (Sid: 37) Client -> Server @ : 844 bytes (Service=HTTP)
+[Web Request      (45f4:66ec)] "POST http://172.24.48.1:1080/cgi-bin/reservations.pl"   
+[Network Analyzer (45f4:66ec)]   (Sid: 37) Client -> Server @ : 244 bytes (Service=HTTP)
+[Network Analyzer (45f4:66ec)]   (Sid: 37) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer (45f4:66ec)]   (Sid: 37) Server -> Client : 2445 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:66ec)] Sent 2445 bytes to client @ 172.24.48.1:33107
+[User action                 ] EndTransactionEvent find_flight [Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:33114
+[Proxy Recording  (45f4:539c)] Trying to connect to https://query1.finance.yahoo.com:443/v8/finance/chart/CLOV?region=US&lang=en-US&includePrePost=false&interval=2m&useYfid=true&range=1d&corsDomain=finance.yahoo.com&.tsrc=finance ...
+[Proxy Recording  (45f4:539c)] Trying to connect to https://query1.finance.yahoo.com:443/v8/finance/chart/CLOV?region=US&lang=en-US&includePrePost=false&interval=2m&useYfid=true&range=1d&corsDomain=finance.yahoo.com&.tsrc=finance ...
+[Proxy Recording  (45f4:539c)] Received response of 878 header and 4939 body bytes from https://query1.finance.yahoo.com:443/v8/finance/chart/CLOV?region=US&lang=en-US&includePrePost=false&interval=2m&useYfid=true&range=1d&corsDomain=finance.yahoo.com&.tsrc=finance
+[Proxy Recording  (45f4:539c)] Sent 4939 bytes to client @ 172.24.48.1:33114
+[User action                 ] StartTransactionEvent choose_flight [Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:24106
+[Proxy Recording  (45f4:499c)] Trying to connect to http://172.24.48.1:1080/cgi-bin/reservations.pl ...
+[Proxy Recording  (45f4:499c)] Trying to connect to http://172.24.48.1:1080/cgi-bin/reservations.pl ...
+[Proxy Recording  (45f4:499c)] Received response of 183 header and 2949 body bytes from http://172.24.48.1:1080/cgi-bin/reservations.pl
+[Network Analyzer (45f4:499c)]   (Sid: 38) Client -> Server @ : 831 bytes (Service=HTTP)
+[Web Request      (45f4:499c)] "POST http://172.24.48.1:1080/cgi-bin/reservations.pl"   
+[Network Analyzer (45f4:499c)]   (Sid: 38) Client -> Server @ : 149 bytes (Service=HTTP)
+[Network Analyzer (45f4:499c)]   (Sid: 38) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer (45f4:499c)]   (Sid: 38) Server -> Client : 2949 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:499c)] Sent 2949 bytes to client @ 172.24.48.1:24106
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1024
+[Proxy Recording  (45f4:539c)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChNDaHJvbWUvOTEuMC40NDcyLjc3Ek8JPbTxjzJS7qsSBQ1raJpuEgUNT54n-BIFDWOTJ4cSBQ2iWbhJEgUN-LT-oBIFDY6jDfESBQ2Fs4PYEgUNzIrpcBIFDVdoLJkSBQ1t-mbJ?alt=proto ...
+[Proxy Recording  (45f4:539c)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChNDaHJvbWUvOTEuMC40NDcyLjc3Ek8JPbTxjzJS7qsSBQ1raJpuEgUNT54n-BIFDWOTJ4cSBQ2iWbhJEgUN-LT-oBIFDY6jDfESBQ2Fs4PYEgUNzIrpcBIFDVdoLJkSBQ1t-mbJ?alt=proto ...
+[Proxy Recording  (45f4:539c)] Received response of 538 header and 117 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChNDaHJvbWUvOTEuMC40NDcyLjc3Ek8JPbTxjzJS7qsSBQ1raJpuEgUNT54n-BIFDWOTJ4cSBQ2iWbhJEgUN-LT-oBIFDY6jDfESBQ2Fs4PYEgUNzIrpcBIFDVdoLJkSBQ1t-mbJ?alt=proto
+[Web Request      (45f4:539c)] "GET https://content-autofill.googleapis.com/v1/pages/ChNDaHJvbWUvOTEuMC40NDcyLjc3Ek8JPbTxjzJS7qsSBQ1raJpuEgUNT54n-BIFDWOTJ4cSBQ2iWbhJEgUN-LT-oBIFDY6jDfESBQ2Fs4PYEgUNzIrpcBIFDVdoLJkSBQ1t-mbJ?alt=proto"   
+[Network Analyzer (45f4:539c)]   (Sid: 39) Client -> Server @ : 755 bytes (SSL)(Service=HTTP)
+[Network Analyzer (45f4:539c)]   (Sid: 39) Server -> Client : 555 bytes (SSL) (Service=HTTP)
+[Network Analyzer (45f4:539c)]   (Sid: 39) Server -> Client : 117 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (45f4:539c)] Sent 117 bytes to client @ 172.24.48.1:1024
+[User action                 ] EndTransactionEvent choose_flight [Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1032
+[Proxy Recording  (45f4:499c)] Trying to connect to http://redirector.gvt1.com/edgedl/release2/chrome_component/aJoJ4crLAHFHrGnlf5gsDg_6655/AJL2JFce4kI_42GFPbrCSpM ...
+[Proxy Recording  (45f4:499c)] Trying to connect to http://redirector.gvt1.com/edgedl/release2/chrome_component/aJoJ4crLAHFHrGnlf5gsDg_6655/AJL2JFce4kI_42GFPbrCSpM ...
+[Proxy Recording  (45f4:499c)] Received response of 619 header and 0 body bytes from http://redirector.gvt1.com/edgedl/release2/chrome_component/aJoJ4crLAHFHrGnlf5gsDg_6655/AJL2JFce4kI_42GFPbrCSpM
+[Proxy Recording  (45f4:499c)] Sent 0 bytes to client @ 172.24.48.1:1032
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1034
+[Proxy Recording  (45f4:539c)] Trying to connect to http://r13---sn-n8v7zns6.gvt1.com/edgedl/release2/chrome_component/aJoJ4crLAHFHrGnlf5gsDg_6655/AJL2JFce4kI_42GFPbrCSpM?cms_redirect=yes&mh=Zl&mip=212.16.19.2&mm=28&mn=sn-n8v7zns6&ms=nvh&mt=1623134560&mv=u&mvi=13&pl=19&rmhost=r9---sn-n8v7zns6.gvt1.com&shardbypass=yes&smhost=r9---sn-n8v7znlr.gvt1.com ...
+[Proxy Recording  (45f4:539c)] Trying to connect to http://r13---sn-n8v7zns6.gvt1.com/edgedl/release2/chrome_component/aJoJ4crLAHFHrGnlf5gsDg_6655/AJL2JFce4kI_42GFPbrCSpM?cms_redirect=yes&mh=Zl&mip=212.16.19.2&mm=28&mn=sn-n8v7zns6&ms=nvh&mt=1623134560&mv=u&mvi=13&pl=19&rmhost=r9---sn-n8v7zns6.gvt1.com&shardbypass=yes&smhost=r9---sn-n8v7znlr.gvt1.com ...
+[Proxy Recording  (45f4:539c)] Received response of 619 header and 0 body bytes from http://r13---sn-n8v7zns6.gvt1.com/edgedl/release2/chrome_component/aJoJ4crLAHFHrGnlf5gsDg_6655/AJL2JFce4kI_42GFPbrCSpM?cms_redirect=yes&mh=Zl&mip=212.16.19.2&mm=28&mn=sn-n8v7zns6&ms=nvh&mt=1623134560&mv=u&mvi=13&pl=19&rmhost=r9---sn-n8v7zns6.gvt1.com&shardbypass=yes&smhost=r9---sn-n8v7znlr.gvt1.com
+[Proxy Recording  (45f4:539c)] Sent 0 bytes to client @ 172.24.48.1:1034
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1025
+[Proxy Recording.Error (45f4:4df0)] Exception is caught while connecting to , message=Буфер выходных символов не достаточен для хранения закодированных символов, кодирование 'Unicode (UTF-8)' резерв 'System.Text.DecoderReplacementFallback'.
+Имя параметра: chars
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1026
+[Proxy Recording  (45f4:4464)] Trying to connect to https://redirector.gvt1.com:443/edgedl/release2/chrome_component/aJoJ4crLAHFHrGnlf5gsDg_6655/AJL2JFce4kI_42GFPbrCSpM ...
+[Proxy Recording  (45f4:4464)] Trying to connect to https://redirector.gvt1.com:443/edgedl/release2/chrome_component/aJoJ4crLAHFHrGnlf5gsDg_6655/AJL2JFce4kI_42GFPbrCSpM ...
+[Proxy Recording  (45f4:4464)] Received response of 798 header and 0 body bytes from https://redirector.gvt1.com:443/edgedl/release2/chrome_component/aJoJ4crLAHFHrGnlf5gsDg_6655/AJL2JFce4kI_42GFPbrCSpM
+[Proxy Recording  (45f4:4464)] Sent 0 bytes to client @ 172.24.48.1:1026
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1037
+[Proxy Recording  (45f4:4df0)] Trying to connect to https://r13---sn-n8v7zns6.gvt1.com:443/edgedl/release2/chrome_component/aJoJ4crLAHFHrGnlf5gsDg_6655/AJL2JFce4kI_42GFPbrCSpM?cms_redirect=yes&mh=Zl&mip=212.16.19.2&mm=28&mn=sn-n8v7zns6&ms=nvh&mt=1623134663&mv=m&mvi=13&pl=19&rmhost=r9---sn-n8v7zns6.gvt1.com&shardbypass=yes&smhost=r9---sn-n8v7znlr.gvt1.com ...
+[Proxy Recording  (45f4:4df0)] Trying to connect to https://r13---sn-n8v7zns6.gvt1.com:443/edgedl/release2/chrome_component/aJoJ4crLAHFHrGnlf5gsDg_6655/AJL2JFce4kI_42GFPbrCSpM?cms_redirect=yes&mh=Zl&mip=212.16.19.2&mm=28&mn=sn-n8v7zns6&ms=nvh&mt=1623134663&mv=m&mvi=13&pl=19&rmhost=r9---sn-n8v7zns6.gvt1.com&shardbypass=yes&smhost=r9---sn-n8v7znlr.gvt1.com ...
+[Proxy Recording  (45f4:4df0)] Received response of 787 header and 0 body bytes from https://r13---sn-n8v7zns6.gvt1.com:443/edgedl/release2/chrome_component/aJoJ4crLAHFHrGnlf5gsDg_6655/AJL2JFce4kI_42GFPbrCSpM?cms_redirect=yes&mh=Zl&mip=212.16.19.2&mm=28&mn=sn-n8v7zns6&ms=nvh&mt=1623134663&mv=m&mvi=13&pl=19&rmhost=r9---sn-n8v7zns6.gvt1.com&shardbypass=yes&smhost=r9---sn-n8v7znlr.gvt1.com
+[Proxy Recording  (45f4:4df0)] Sent 0 bytes to client @ 172.24.48.1:1037
+[User action                 ] StartTransactionEvent payment_details [Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1054
+[Proxy Recording  (45f4:5b4c)] Trying to connect to https://query1.finance.yahoo.com:443/v8/finance/chart/CLOV?region=US&lang=en-US&includePrePost=false&interval=2m&useYfid=true&range=1d&corsDomain=finance.yahoo.com&.tsrc=finance ...
+[Proxy Recording  (45f4:5b4c)] Trying to connect to https://query1.finance.yahoo.com:443/v8/finance/chart/CLOV?region=US&lang=en-US&includePrePost=false&interval=2m&useYfid=true&range=1d&corsDomain=finance.yahoo.com&.tsrc=finance ...
+[Proxy Recording  (45f4:5b4c)] Received response of 878 header and 4939 body bytes from https://query1.finance.yahoo.com:443/v8/finance/chart/CLOV?region=US&lang=en-US&includePrePost=false&interval=2m&useYfid=true&range=1d&corsDomain=finance.yahoo.com&.tsrc=finance
+[Proxy Recording  (45f4:5b4c)] Sent 4939 bytes to client @ 172.24.48.1:1054
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:21624
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:8373
+[Proxy Recording  (45f4:3a1c)] Trying to connect to http://172.24.48.1:1080/cgi-bin/reservations.pl ...
+[Proxy Recording  (45f4:3a1c)] Trying to connect to http://172.24.48.1:1080/cgi-bin/reservations.pl ...
+[Proxy Recording  (45f4:3a1c)] Received response of 309 header and 2482 body bytes from http://172.24.48.1:1080/cgi-bin/reservations.pl
+[Network Analyzer (45f4:3a1c)]   (Sid: 40) Client -> Server @ : 831 bytes (Service=HTTP)
+[Web Request      (45f4:3a1c)] "POST http://172.24.48.1:1080/cgi-bin/reservations.pl"   
+[Network Analyzer (45f4:3a1c)]   (Sid: 40) Client -> Server @ : 378 bytes (Service=HTTP)
+[Network Analyzer (45f4:3a1c)]   (Sid: 40) Server -> Client : 298 bytes  (Service=HTTP)
+[Network Analyzer (45f4:3a1c)]   (Sid: 40) Server -> Client : 2482 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:3a1c)] Sent 2482 bytes to client @ 172.24.48.1:8373
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1024
+[Proxy Recording  (45f4:3a1c)] Trying to connect to http://172.24.48.1:1080/WebTours/images/bookanother.gif ...
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:9039
+[Proxy Recording  (45f4:3a1c)] Trying to connect to http://172.24.48.1:1080/WebTours/images/bookanother.gif ...
+[Proxy Recording  (45f4:3a1c)] Received response of 111 header and 0 body bytes from http://172.24.48.1:1080/WebTours/images/bookanother.gif
+[Proxy Recording  (45f4:5b4c)] Trying to connect to https://content-autofill.googleapis.com:443/v1/forms:vote?alt=proto ...
+[Proxy Recording  (45f4:5b4c)] Trying to connect to https://content-autofill.googleapis.com:443/v1/forms:vote?alt=proto ...
+[Web Request      (45f4:3a1c)] "GET http://172.24.48.1:1080/WebTours/images/bookanother.gif"   
+[Network Analyzer (45f4:3a1c)]   (Sid: 41) Client -> Server @ : 684 bytes (Service=HTTP)
+[Network Analyzer (45f4:3a1c)]   (Sid: 41) Server -> Client : 138 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:3a1c)] Sent 0 bytes to client @ 172.24.48.1:1024
+[Proxy Recording  (45f4:5b4c)] Received response of 401 header and 0 body bytes from https://content-autofill.googleapis.com:443/v1/forms:vote?alt=proto
+[Network Analyzer (45f4:5b4c)]   (Sid: 42) Client -> Server @ : 660 bytes (SSL)(Service=HTTP)
+[Web Request      (45f4:5b4c)] "POST https://content-autofill.googleapis.com/v1/forms:vote?alt=proto"   
+[Network Analyzer (45f4:5b4c)]   (Sid: 42) Client -> Server @ : 1454 bytes (SSL)(Service=HTTP)
+[Network Analyzer (45f4:5b4c)]   (Sid: 42) Server -> Client : 418 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (45f4:5b4c)] Sent 0 bytes to client @ 172.24.48.1:21624
+[Proxy Recording  (45f4:20f0)] Trying to connect to https://content-autofill.googleapis.com:443/v1/forms:vote?alt=proto ...
+[Proxy Recording  (45f4:20f0)] Trying to connect to https://content-autofill.googleapis.com:443/v1/forms:vote?alt=proto ...
+[Proxy Recording  (45f4:20f0)] Received response of 401 header and 0 body bytes from https://content-autofill.googleapis.com:443/v1/forms:vote?alt=proto
+[Network Analyzer (45f4:20f0)]   (Sid: 43) Client -> Server @ : 660 bytes (SSL)(Service=HTTP)
+[Web Request      (45f4:20f0)] "POST https://content-autofill.googleapis.com/v1/forms:vote?alt=proto"   
+[Network Analyzer (45f4:20f0)]   (Sid: 43) Client -> Server @ : 1454 bytes (SSL)(Service=HTTP)
+[Network Analyzer (45f4:20f0)]   (Sid: 43) Server -> Client : 418 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (45f4:20f0)] Sent 0 bytes to client @ 172.24.48.1:9039
+[User action                 ] EndTransactionEvent payment_details [Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:9041
+[Proxy Recording  (45f4:5b4c)] Trying to connect to http://dl.google.com/release2/chrome_component/aJoJ4crLAHFHrGnlf5gsDg_6655/AJL2JFce4kI_42GFPbrCSpM ...
+[Proxy Recording  (45f4:5b4c)] Trying to connect to http://dl.google.com/release2/chrome_component/aJoJ4crLAHFHrGnlf5gsDg_6655/AJL2JFce4kI_42GFPbrCSpM ...
+[Proxy Recording  (45f4:5b4c)] Received response of 411 header and 0 body bytes from http://dl.google.com/release2/chrome_component/aJoJ4crLAHFHrGnlf5gsDg_6655/AJL2JFce4kI_42GFPbrCSpM
+[Proxy Recording  (45f4:5b4c)] Sent 0 bytes to client @ 172.24.48.1:9041
+[User action                 ] StartTransactionEvent sign_off [Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:31147
+[Proxy Recording  (45f4:20f0)] Trying to connect to http://172.24.48.1:1080/cgi-bin/welcome.pl?signOff=1 ...
+[Proxy Recording  (45f4:20f0)] Trying to connect to http://172.24.48.1:1080/cgi-bin/welcome.pl?signOff=1 ...
+[Proxy Recording  (45f4:20f0)] Received response of 242 header and 686 body bytes from http://172.24.48.1:1080/cgi-bin/welcome.pl?signOff=1
+[Web Request      (45f4:20f0)] "GET http://172.24.48.1:1080/cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (45f4:20f0)]   (Sid: 44) Client -> Server @ : 694 bytes (Service=HTTP)
+[Network Analyzer (45f4:20f0)]   (Sid: 44) Server -> Client : 231 bytes  (Service=HTTP)
+[Network Analyzer (45f4:20f0)]   (Sid: 44) Server -> Client : 686 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:20f0)] Sent 686 bytes to client @ 172.24.48.1:31147
+[Proxy Recording  (45f4:5afc)] Client request from @ 172.24.48.1:1024
+[Proxy Recording  (45f4:3a1c)] Trying to connect to http://172.24.48.1:1080/cgi-bin/nav.pl?in=home ...
+[Proxy Recording  (45f4:3a1c)] Trying to connect to http://172.24.48.1:1080/cgi-bin/nav.pl?in=home ...
+[Proxy Recording  (45f4:3a1c)] Received response of 183 header and 1489 body bytes from http://172.24.48.1:1080/cgi-bin/nav.pl?in=home
+[Web Request      (45f4:3a1c)] "GET http://172.24.48.1:1080/cgi-bin/nav.pl?in=home"   
+[Network Analyzer (45f4:3a1c)]   (Sid: 45) Client -> Server @ : 575 bytes (Service=HTTP)
+[Network Analyzer (45f4:3a1c)]   (Sid: 45) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer (45f4:3a1c)]   (Sid: 45) Server -> Client : 1489 bytes  (Service=HTTP)
+[Proxy Recording  (45f4:3a1c)] Sent 1489 bytes to client @ 172.24.48.1:1024
+[User action                 ] EndTransactionEvent sign_off 

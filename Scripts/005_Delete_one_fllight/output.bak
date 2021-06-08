@@ -1,0 +1,422 @@
+Virtual User Script started at: 08.06.2021 18:48:04
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (џэт 05 2021 19:27:22)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\plato\Desktop\LRHomeWork1\Scripts\005_Delete_one_fllight\\default.cfg"  	[MsgId: MMSG-27141]
+Vuser directory: "C:\Users\plato\Desktop\LRHomeWork1\Scripts\005_Delete_one_fllight"  	[MsgId: MMSG-27052]
+Vuser output directory: "C:\Users\plato\Desktop\LRHomeWork1\Scripts\005_Delete_one_fllight"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "c:\users\plato\desktop\lrhomework1\scripts\005_delete_one_fllight"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2021-06-08 15:48:04  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2021-06-08 18:48:04  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : No  	[MsgId: MMSG-26990]
+Some of the Runtime Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-27171]
+    DNS caching: Yes  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: None  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 120  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-27028]
+    ContentCheck script-level file: "C:\Users\plato\Desktop\LRHomeWork1\Scripts\005_Delete_one_fllight\LrwiAedScript.xml"  	[MsgId: MMSG-27027]
+    Enable Web Page Breakdown: Yes  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: No  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26998]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 10  	[MsgId: MMSG-26995]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): Notify: Transaction "005_Delete_one_flights" started.
+Action.c(5): Notify: Transaction "link" started.
+Action.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(11): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(11): An unrecognized header ("Sec-Fetch-Site") is being added  	[MsgId: MMSG-26595]
+Action.c(11): "Sec-Fetch-Site: none" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(11): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(14): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(14): An unrecognized header ("Sec-Fetch-Dest") is being added  	[MsgId: MMSG-26595]
+Action.c(14): "Sec-Fetch-Dest: document" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(14): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(17): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(17): An unrecognized header ("Sec-Fetch-Mode") is being added  	[MsgId: MMSG-26595]
+Action.c(17): "Sec-Fetch-Mode: navigate" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(17): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(20): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(20): An unrecognized header ("Sec-Fetch-User") is being added  	[MsgId: MMSG-26595]
+Action.c(20): "Sec-Fetch-User: ?1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(20): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(23): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(23): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+Action.c(23): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(23): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(35): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(35): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(45): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(45): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(47): web_url("nav.pl") started  	[MsgId: MMSG-26355]
+Action.c(47): t=447ms: Connecting [0] to host 172.24.48.1:1080  	[MsgId: MMSG-26000]
+Action.c(47): t=448ms: Connected socket [0] from 172.24.48.1:1068 to 172.24.48.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+Action.c(47): t=448ms: 505-byte request headers for "http://172.24.48.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1, Internal ID=1)
+Action.c(47):     GET /cgi-bin/nav.pl?in=home HTTP/1.1\r\n
+Action.c(47):     Referer: http://172.24.48.1:1080/cgi-bin/welcome.pl?SignOff=true\r\n
+Action.c(47):     Sec-Fetch-Site: none\r\n
+Action.c(47):     Sec-Fetch-Dest: document\r\n
+Action.c(47):     Sec-Fetch-Mode: navigate\r\n
+Action.c(47):     Sec-Fetch-User: ?1\r\n
+Action.c(47):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(47):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(47):     o) Chrome/91.0.4472.77 Safari/537.36\r\n
+Action.c(47):     Accept-Encoding: gzip, deflate\r\n
+Action.c(47):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(47):     Accept: */*\r\n
+Action.c(47):     Connection: Keep-Alive\r\n
+Action.c(47):     Host: 172.24.48.1:1080\r\n
+Action.c(47):     \r\n
+Action.c(47): t=515ms: 256-byte response headers for "http://172.24.48.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1, Internal ID=1)
+Action.c(47):     HTTP/1.1 200 OK\r\n
+Action.c(47):     Date: Tue, 08 Jun 2021 15:48:04 GMT\r\n
+Action.c(47):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(47):     Expires: Mon, 07 Jun 2021 15:48:04 GMT\r\n
+Action.c(47):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(47):     Connection: Keep-Alive\r\n
+Action.c(47):     Transfer-Encoding: chunked\r\n
+Action.c(47):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(47):     \r\n
+Action.c(47): t=521ms: 5-byte chunked response overhead for "http://172.24.48.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1, Internal ID=1)
+Action.c(47):     5a9\r\n
+Action.c(47): t=521ms: 2-byte chunked response overhead for "http://172.24.48.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1, Internal ID=1)
+Action.c(47):     \r\n
+Action.c(47): t=528ms: 1449-byte chunked response body for "http://172.24.48.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1, Internal ID=1)
+Action.c(47):     <!DOCTYPE html\n
+Action.c(47):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(47):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(47):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(47):     <head>\n
+Action.c(47):     <title>Web Tours Navigation Bar</title>\n
+Action.c(47):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(47):     </head>\n
+Action.c(47):     <body bgcolor="#E0E7F1">\n
+Action.c(47):     <style>\n
+Action.c(47):     blockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(47):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Action.c(47):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(47):     small {font-family: tahoma; font-size : 8pt}\n
+Action.c(47):     </style>\n
+Action.c(47):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+Action.c(47):     <input type="hidden" name="userSession" value="0AA"/>\n
+Action.c(47):     <table border="0"><tr><td>&nbsp;</td>\n
+Action.c(47):     <td>&nbsp;</td></tr>\n
+Action.c(47):     <tr><td>&nbsp;</td>\n
+Action.c(47):     <td>&nbsp;</td></tr>\n
+Action.c(47):     <tr><td>&nbsp;</td>\n
+Action.c(47):     <td><small>&nbsp;Username</small></td></tr>\n
+Action.c(47):     <tr><td>&nbsp;</td>\n
+Action.c(47):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+Action.c(47):     <tr><td>&nbsp;</td>\n
+Action.c(47):     <td><small>&nbsp;Password</small></td>\n
+Action.c(47):     <tr><td>&nbsp;</td>\n
+Action.c(47):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+Action.c(47):     <tr><td>&nbsp;</td>\n
+Action.c(47):     <td>&nbsp;</td></tr>\n
+Action.c(47):     <tr><td>&nbsp;</td>\n
+Action.c(47):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+Action.c(47):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+Action.c(47):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+Action.c(47):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+Action.c(47):     </form>\n
+Action.c(47):     \n
+Action.c(47):     </body>\n
+Action.c(47):     </html>\n
+Action.c(47): t=532ms: 5-byte chunked response overhead for "http://172.24.48.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1, Internal ID=1)
+Action.c(47):     0\r\n
+Action.c(47):     \r\n
+Action.c(47): t=537ms: Request done "http://172.24.48.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+Action.c(47): Notify: Saving Parameter "userSession = 0AA".
+Action.c(47): Registered web_reg_find successful for "Text=Web Tours Navigation Bar" (count=1)  	[MsgId: MMSG-26364]
+Action.c(47): web_url("nav.pl") was successful, 1449 body bytes, 256 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(56): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(56): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+Action.c(56): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(58): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(58): An unrecognized header ("Sec-Fetch-Dest") is being added  	[MsgId: MMSG-26595]
+Action.c(58): "Sec-Fetch-Dest: frame" header registered (superseding previous registration) for adding to requests from all following Action functions  	[MsgId: MMSG-26504]
+Action.c(58): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(61): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(61): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
+Action.c(61): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(63): Notify: Transaction "link" ended with a "Pass" status (Duration: 0.4402 Wasted Time: 0.1626).
+Action.c(65): Notify: Transaction "login" started.
+Action.c(67): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(67): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+Action.c(67): "Origin: http://172.24.48.1:1080" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(67): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(70): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(70): An unrecognized header ("Sec-Fetch-Site") is being added  	[MsgId: MMSG-26595]
+Action.c(70): "Sec-Fetch-Site: same-origin" header registered (superseding previous registration) for adding to requests from all following Action functions  	[MsgId: MMSG-26504]
+Action.c(70): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(74): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(74): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(76): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(76): Notify: Parameter Substitution: parameter "userSession" =  "0AA"
+Action.c(76): Notify: Parameter Substitution: parameter "login" =  "jojo20"
+Action.c(76): Notify: Next row for parameter password = 1 [table  = password].
+Action.c(76): Notify: Parameter Substitution: parameter "password" =  "jojo"
+Action.c(76): t=795ms: Already connected [0] to 172.24.48.1:1080  	[MsgId: MMSG-26000]
+Action.c(76): t=795ms: 547-byte request headers for "http://172.24.48.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=2)
+Action.c(76):     POST /cgi-bin/login.pl HTTP/1.1\r\n
+Action.c(76):     Content-Type: application/x-www-form-urlencoded\r\n
+Action.c(76):     Referer: http://172.24.48.1:1080/cgi-bin/nav.pl?in=home\r\n
+Action.c(76):     Origin: http://172.24.48.1:1080\r\n
+Action.c(76):     Sec-Fetch-Site: same-origin\r\n
+Action.c(76):     Sec-Fetch-Dest: frame\r\n
+Action.c(76):     Sec-Fetch-Mode: navigate\r\n
+Action.c(76):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(76):     o) Chrome/91.0.4472.77 Safari/537.36\r\n
+Action.c(76):     Accept-Encoding: gzip, deflate\r\n
+Action.c(76):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(76):     Accept: */*\r\n
+Action.c(76):     Connection: Keep-Alive\r\n
+Action.c(76):     Host: 172.24.48.1:1080\r\n
+Action.c(76):     Content-Length: 84\r\n
+Action.c(76):     \r\n
+Action.c(76): t=796ms: 84-byte request body for "http://172.24.48.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=2)
+Action.c(76):     userSession=0AA&username=jojo20&password=jojo&login.x=17&login.y=14&JSFormSubmit=off
+Action.c(76): t=865ms: 228-byte response headers for "http://172.24.48.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=2)
+Action.c(76):     HTTP/1.1 200 OK\r\n
+Action.c(76):     Date: Tue, 08 Jun 2021 15:48:04 GMT\r\n
+Action.c(76):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(76):     Expires: 5s\r\n
+Action.c(76):     Keep-Alive: timeout=5, max=99\r\n
+Action.c(76):     Connection: Keep-Alive\r\n
+Action.c(76):     Transfer-Encoding: chunked\r\n
+Action.c(76):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(76):     \r\n
+Action.c(76): t=866ms: 5-byte chunked response overhead for "http://172.24.48.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=2)
+Action.c(76):     1c6\r\n
+Action.c(76): t=867ms: 2-byte chunked response overhead for "http://172.24.48.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=2)
+Action.c(76):     \r\n
+Action.c(76): t=867ms: 454-byte chunked response body for "http://172.24.48.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=2)
+Action.c(76):     <!--\n
+Action.c(76):     User password was incorrect.  Prompt the user to fix password or sign-up...\n
+Action.c(76):     --->\n
+Action.c(76):     \n
+Action.c(76):     <html>\n
+Action.c(76):     <title>Web Tours</title>\n
+Action.c(76):     <frameset cols="160,*" border=1 frameborder=1>\n
+Action.c(76):     <frame src="nav.pl?username=jojo20&password=jojo" name="navbar" marginheight="2" marginwid
+Action.c(76):     th="2" noresize="noresize" scrolling="auto"/>\n
+Action.c(76):     <frame src="error.pl?error=badPassword" name="info" marginheight="2" marginwidth="2" nores
+Action.c(76):     ize="noresize" scrolling="auto"/>\n
+Action.c(76):     </frameset>\n
+Action.c(76):     \n
+Action.c(76):     </body>\n
+Action.c(76):     </html>
+Action.c(76): Detected non-resource "http://172.24.48.1:1080/cgi-bin/nav.pl?username=jojo20&password=jojo" in "http://172.24.48.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(76): Detected non-resource "http://172.24.48.1:1080/cgi-bin/error.pl?error=badPassword" in "http://172.24.48.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(76): t=870ms: 5-byte chunked response overhead for "http://172.24.48.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=2)
+Action.c(76):     0\r\n
+Action.c(76):     \r\n
+Action.c(76): t=870ms: Request done "http://172.24.48.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26000]
+Action.c(76): t=871ms: Connecting [1] to host 172.24.48.1:1080  	[MsgId: MMSG-26000]
+Action.c(76): t=872ms: Connecting [2] to host 172.24.48.1:1080  	[MsgId: MMSG-26000]
+Action.c(76): t=872ms: Connected socket [1] from 172.24.48.1:1069 to 172.24.48.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+Action.c(76): t=873ms: 499-byte request headers for "http://172.24.48.1:1080/cgi-bin/nav.pl?username=jojo20&password=jojo" (RelFrameId=1.1, Internal ID=3)
+Action.c(76):     GET /cgi-bin/nav.pl?username=jojo20&password=jojo HTTP/1.1\r\n
+Action.c(76):     Referer: http://172.24.48.1:1080/cgi-bin/login.pl\r\n
+Action.c(76):     Origin: http://172.24.48.1:1080\r\n
+Action.c(76):     Sec-Fetch-Site: same-origin\r\n
+Action.c(76):     Sec-Fetch-Dest: frame\r\n
+Action.c(76):     Sec-Fetch-Mode: navigate\r\n
+Action.c(76):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(76):     o) Chrome/91.0.4472.77 Safari/537.36\r\n
+Action.c(76):     Accept-Encoding: gzip, deflate\r\n
+Action.c(76):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(76):     Accept: */*\r\n
+Action.c(76):     Connection: Keep-Alive\r\n
+Action.c(76):     Host: 172.24.48.1:1080\r\n
+Action.c(76):     \r\n
+Action.c(76): t=874ms: Connected socket [2] from 172.24.48.1:1070 to 172.24.48.1:1080 in 2 ms  	[MsgId: MMSG-26000]
+Action.c(76): t=874ms: 489-byte request headers for "http://172.24.48.1:1080/cgi-bin/error.pl?error=badPassword" (RelFrameId=1.2, Internal ID=4)
+Action.c(76):     GET /cgi-bin/error.pl?error=badPassword HTTP/1.1\r\n
+Action.c(76):     Referer: http://172.24.48.1:1080/cgi-bin/login.pl\r\n
+Action.c(76):     Origin: http://172.24.48.1:1080\r\n
+Action.c(76):     Sec-Fetch-Site: same-origin\r\n
+Action.c(76):     Sec-Fetch-Dest: frame\r\n
+Action.c(76):     Sec-Fetch-Mode: navigate\r\n
+Action.c(76):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(76):     o) Chrome/91.0.4472.77 Safari/537.36\r\n
+Action.c(76):     Accept-Encoding: gzip, deflate\r\n
+Action.c(76):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(76):     Accept: */*\r\n
+Action.c(76):     Connection: Keep-Alive\r\n
+Action.c(76):     Host: 172.24.48.1:1080\r\n
+Action.c(76):     \r\n
+Action.c(76): t=927ms: 256-byte response headers for "http://172.24.48.1:1080/cgi-bin/nav.pl?username=jojo20&password=jojo" (RelFrameId=1.1, Internal ID=3)
+Action.c(76):     HTTP/1.1 200 OK\r\n
+Action.c(76):     Date: Tue, 08 Jun 2021 15:48:04 GMT\r\n
+Action.c(76):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(76):     Expires: Mon, 07 Jun 2021 15:48:04 GMT\r\n
+Action.c(76):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(76):     Connection: Keep-Alive\r\n
+Action.c(76):     Transfer-Encoding: chunked\r\n
+Action.c(76):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(76):     \r\n
+Action.c(76): t=928ms: 5-byte chunked response overhead for "http://172.24.48.1:1080/cgi-bin/nav.pl?username=jojo20&password=jojo" (RelFrameId=1.1, Internal ID=3)
+Action.c(76):     5b3\r\n
+Action.c(76): t=928ms: 2-byte chunked response overhead for "http://172.24.48.1:1080/cgi-bin/nav.pl?username=jojo20&password=jojo" (RelFrameId=1.1, Internal ID=3)
+Action.c(76):     \r\n
+Action.c(76): t=928ms: 1459-byte chunked response body for "http://172.24.48.1:1080/cgi-bin/nav.pl?username=jojo20&password=jojo" (RelFrameId=1.1, Internal ID=3)
+Action.c(76):     <!DOCTYPE html\n
+Action.c(76):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(76):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(76):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(76):     <head>\n
+Action.c(76):     <title>Web Tours Navigation Bar</title>\n
+Action.c(76):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(76):     </head>\n
+Action.c(76):     <body bgcolor="#E0E7F1">\n
+Action.c(76):     <style>\n
+Action.c(76):     blockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(76):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Action.c(76):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(76):     small {font-family: tahoma; font-size : 8pt}\n
+Action.c(76):     </style>\n
+Action.c(76):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+Action.c(76):     <input type="hidden" name="userSession" value="0AA"/>\n
+Action.c(76):     <table border="0"><tr><td>&nbsp;</td>\n
+Action.c(76):     <td>&nbsp;</td></tr>\n
+Action.c(76):     <tr><td>&nbsp;</td>\n
+Action.c(76):     <td>&nbsp;</td></tr>\n
+Action.c(76):     <tr><td>&nbsp;</td>\n
+Action.c(76):     <td><small>&nbsp;Username</small></td></tr>\n
+Action.c(76):     <tr><td>&nbsp;</td>\n
+Action.c(76):     <td><input type="text" name="username" value="jojo20" size="14" maxlength="14"/></td></tr>
+Action.c(76):     \n
+Action.c(76):     <tr><td>&nbsp;</td>\n
+Action.c(76):     <td><small>&nbsp;Password</small></td>\n
+Action.c(76):     <tr><td>&nbsp;</td>\n
+Action.c(76):     <td><input type="password" name="password" value="jojo" size="14" maxlength="14"/></td></t
+Action.c(76):     r>\n
+Action.c(76):     <tr><td>&nbsp;</td>\n
+Action.c(76):     <td>&nbsp;</td></tr>\n
+Action.c(76):     <tr><td>&nbsp;</td>\n
+Action.c(76):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+Action.c(76):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+Action.c(76):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+Action.c(76):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+Action.c(76):     </form>\n
+Action.c(76):     \n
+Action.c(76):     </body>\n
+Action.c(76):     </html>\n
+Action.c(76): Found resource "http://172.24.48.1:1080/WebTours/images/mer_login.gif" in HTML "http://172.24.48.1:1080/cgi-bin/nav.pl?username=jojo20&password=jojo"  	[MsgId: MMSG-26659]
+Action.c(76): t=933ms: 5-byte chunked response overhead for "http://172.24.48.1:1080/cgi-bin/nav.pl?username=jojo20&password=jojo" (RelFrameId=1.1, Internal ID=3)
+Action.c(76):     0\r\n
+Action.c(76):     \r\n
+Action.c(76): t=934ms: Request done "http://172.24.48.1:1080/cgi-bin/nav.pl?username=jojo20&password=jojo"  	[MsgId: MMSG-26000]
+Action.c(76): t=935ms: Already connected [0] to 172.24.48.1:1080  	[MsgId: MMSG-26000]
+Action.c(76): t=935ms: 512-byte request headers for "http://172.24.48.1:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=5)
+Action.c(76):     GET /WebTours/images/mer_login.gif HTTP/1.1\r\n
+Action.c(76):     Referer: http://172.24.48.1:1080/cgi-bin/nav.pl?username=jojo20&password=jojo\r\n
+Action.c(76):     Origin: http://172.24.48.1:1080\r\n
+Action.c(76):     Sec-Fetch-Site: same-origin\r\n
+Action.c(76):     Sec-Fetch-Dest: frame\r\n
+Action.c(76):     Sec-Fetch-Mode: navigate\r\n
+Action.c(76):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(76):     o) Chrome/91.0.4472.77 Safari/537.36\r\n
+Action.c(76):     Accept-Encoding: gzip, deflate\r\n
+Action.c(76):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(76):     Accept: */*\r\n
+Action.c(76):     Connection: Keep-Alive\r\n
+Action.c(76):     Host: 172.24.48.1:1080\r\n
+Action.c(76):     \r\n
+Action.c(76): t=939ms: 297-byte response headers for "http://172.24.48.1:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=5)
+Action.c(76):     HTTP/1.1 200 OK\r\n
+Action.c(76):     Date: Tue, 08 Jun 2021 15:48:04 GMT\r\n
+Action.c(76):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(76):     Last-Modified: Sat, 05 Jun 2021 18:28:55 GMT\r\n
+Action.c(76):     ETag: "a00000016bb9f-2a7-5c408fb187851"\r\n
+Action.c(76):     Accept-Ranges: bytes\r\n
+Action.c(76):     Content-Length: 679\r\n
+Action.c(76):     Keep-Alive: timeout=5, max=98\r\n
+Action.c(76):     Connection: Keep-Alive\r\n
+Action.c(76):     Content-Type: image/gif\r\n
+Action.c(76):     \r\n
+Action.c(76): t=941ms: 679-byte response body for "http://172.24.48.1:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=5)
+Action.c(76): t=941ms: Request done "http://172.24.48.1:1080/WebTours/images/mer_login.gif"  	[MsgId: MMSG-26000]
+Action.c(76): t=942ms: 216-byte response headers for "http://172.24.48.1:1080/cgi-bin/error.pl?error=badPassword" (RelFrameId=1.2, Internal ID=4)
+Action.c(76):     HTTP/1.1 200 OK\r\n
+Action.c(76):     Date: Tue, 08 Jun 2021 15:48:04 GMT\r\n
+Action.c(76):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(76):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(76):     Connection: Keep-Alive\r\n
+Action.c(76):     Transfer-Encoding: chunked\r\n
+Action.c(76):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(76):     \r\n
+Action.c(76): t=943ms: 5-byte chunked response overhead for "http://172.24.48.1:1080/cgi-bin/error.pl?error=badPassword" (RelFrameId=1.2, Internal ID=4)
+Action.c(76):     406\r\n
+Action.c(76): t=943ms: 2-byte chunked response overhead for "http://172.24.48.1:1080/cgi-bin/error.pl?error=badPassword" (RelFrameId=1.2, Internal ID=4)
+Action.c(76):     \r\n
+Action.c(76): t=944ms: 1030-byte chunked response body for "http://172.24.48.1:1080/cgi-bin/error.pl?error=badPassword" (RelFrameId=1.2, Internal ID=4)
+Action.c(76):     <!DOCTYPE html\n
+Action.c(76):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(76):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(76):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(76):     <head>\n
+Action.c(76):     <title>Web Tours Error - Incorrect Password</title>\n
+Action.c(76):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(76):     </head>\n
+Action.c(76):     <body bgcolor="#E0E7F1">\n
+Action.c(76):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+Action.c(76):     e : 22pt; color: #003366}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+Action.c(76):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}
+Action.c(76):     </style><BR><BR><h1>&nbsp;&nbsp;<b>Error</b></h1><blockquote><center><h3><font color=red>W
+Action.c(76):     eb Tours Error - Incorrect Password</font></h3></center><blockquote>\n
+Action.c(76):     The username/password combination you've entered is invalid.  \n
+Action.c(76):      Please double check your entry.  If it still does not work, you might \n
+Action.c(76):      need to re-register with our site. <p /> Thank you for your patience.\n
+Action.c(76):     </blockquote>\n
+Action.c(76):     </body>\n
+Action.c(76):     </html>
+Action.c(76): t=946ms: 5-byte chunked response overhead for "http://172.24.48.1:1080/cgi-bin/error.pl?error=badPassword" (RelFrameId=1.2, Internal ID=4)
+Action.c(76):     0\r\n
+Action.c(76):     \r\n
+Action.c(76): t=946ms: Request done "http://172.24.48.1:1080/cgi-bin/error.pl?error=badPassword"  	[MsgId: MMSG-26000]
+Action.c(76): Error -26366: "Text=User password was correct" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(76): web_submit_data("login.pl") highest severity level was "ERROR", 3622 body bytes, 997 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(76): Notify: Transaction "login" ended with a "Fail" status (Duration: 0.2940 Wasted Time: 0.0133).
+Action.c(76): Notify: Transaction "login" has 1 error message(s).
+Action.c(76): Notify: The 1st error message associated with transaction "login" is "Error -26366: "Text=User password was correct" not found for web_reg_find"
+Action.c(76): Notify: Transaction "005_Delete_one_flights" ended with a "Fail" status (Duration: 0.7668 Wasted Time: 0.1758).
+Action.c(76): Notify: Transaction "005_Delete_one_flights" has 1 error message(s).
+Action.c(76): Notify: The 1st error message associated with transaction "005_Delete_one_flights" is "Error -26366: "Text=User password was correct" not found for web_reg_find"
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Action.c(76): t=2509ms: Closed connection [0] to 172.24.48.1:1080 after completing 3 request(s)  	[MsgId: MMSG-26000]
+Action.c(76): t=2509ms: Closed connection [1] to 172.24.48.1:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(76): t=2509ms: Closed connection [2] to 172.24.48.1:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]

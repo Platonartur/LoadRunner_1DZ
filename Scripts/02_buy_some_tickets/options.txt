@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\plato\Desktop\LRHomeWork1\Scripts\02_buy_some_tickets
--ID:\Program Files (x86)\include
--ec:\users\plato\desktop\lrhomework1\scripts\02_buy_some_tickets\\logfile.log
-c:\users\plato\desktop\lrhomework1\scripts\02_buy_some_tickets\\combined_02_buy_some_tickets.c
-c:\users\plato\desktop\lrhomework1\scripts\02_buy_some_tickets\\pre_cci.c

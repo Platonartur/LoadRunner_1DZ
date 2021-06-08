@@ -1,4 +1,0 @@
-"firstName=Dilan&lastName=Dilanovich&address1=Moscow&address2=Moscow&pass1=Dilan+Dilanovich&pas"
-"s2=Dilan+Dilanovich&pass3=Dilan+Dilanovich&creditCard=1020&expDate=2024&saveCC=on&oldCCOption="
-"on&numPassengers=3&seatType=Coach&seatPref=None&outboundFlight=2021-06-03&advanceDiscount=0&re"
-"turnFlight=&JSFormSubmit=off&buyFlights.x=77&buyFlights.y=10&.cgifields=saveCC"

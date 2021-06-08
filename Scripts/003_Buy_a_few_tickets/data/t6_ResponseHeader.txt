@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Date: Tue, 08 Jun 2021 06:49:53 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Mark&address2&Moscow&username&jojo28&hash&120&lastName&Markovich%0A&address1&Moscow&creditCard&&expDate&%0A; path=/
+Content-Type: text/html; charset=ISO-8859-1
+

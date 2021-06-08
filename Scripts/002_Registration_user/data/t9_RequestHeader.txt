@@ -1,0 +1,11 @@
+GET http://172.24.48.1:1080/cgi-bin/welcome.pl?page=menus HTTP/1.1
+Upgrade-Insecure-Requests: 1
+DNT: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://172.24.48.1:1080/cgi-bin/login.pl
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1623093240; MTUserInfo=firstName&Lukas&address2&Moscow&username&jojo1337&hash&87&lastName&Lukasovich&address1&Moscow&creditCard&&expDate&
+Host: 172.24.48.1:1080
+

@@ -1,11 +1,2 @@
-login,password,streetaddress,city,firstName,lastName,creditcard,expdate,depart,arrive,seatType,seatPref
-jojo20,jojo,Moscow,Moscow,Dilan,Dilanovich,1020,2024,Zurich,London,Coach,None
-jojo21,jojo,Moscow,Moscow,Bob,Bobovich,1021,2024,Denver,Sydney,Coach,None
-jojo22,jojo,Moscow,Moscow,Andreas,Andreasovich,1022,2024,Paris,Los Angeles,Coach,None
-jojo23,jojo,Moscow,Moscow,Robert,Robertovich,1023,2024,Portland,Seattle,Coach,None
-jojo24,jojo,Moscow,Moscow,James,Jamesovich,1024,2024,Frankfurt,San Francisco,Coach,None
-jojo25,jojo,Moscow,Moscow,Joe,Joevich,1025,2024,Denver,Zurich,Coach,None
-jojo26,jojo,Moscow,Moscow,Alan,Alanovich,1026,2024,Los Angeles,Sydney,Coach,None
-jojo27,jojo,Moscow,Moscow,Peter,Peterovich,1027,2024,San Francisco,London,Coach,None
-jojo28,jojo,Moscow,Moscow,Mark,Markovich,1028,2024,Seattle,Paris,Coach,None
-jojo29,jojo,Moscow,Moscow,David,Davidovich,1029,2024,Frankfurt,Portland,Coach,None
+creditcard
+

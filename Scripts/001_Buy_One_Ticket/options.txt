@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\plato\Desktop\LRHomeWork1\Scripts\001_Buy_One_Ticket
+-ID:\Program Files (x86)\include
+-ec:\users\plato\desktop\lrhomework1\scripts\001_buy_one_ticket\\logfile.log
+c:\users\plato\desktop\lrhomework1\scripts\001_buy_one_ticket\\combined_001_Buy_One_Ticket.c
+c:\users\plato\desktop\lrhomework1\scripts\001_buy_one_ticket\\pre_cci.c

@@ -1,6 +1,0 @@
-HTTP/1.1 200 OK
-Date: Sun, 30 May 2021 09:41:29 GMT
-Server: Apache/2.2.21 (Win32)
-Expires: Sat, 29 May 2021 09:41:29 GMT
-Content-Type: text/html; charset=ISO-8859-1
-

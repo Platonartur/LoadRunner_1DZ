@@ -1,0 +1,62 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: nav.pl",
+                "infFile": "t2.inf",
+                "time": 1623167033448
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1623167033826
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t4.inf",
+                "time": 1623167034178
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "link",
+                "rawStartTime": 1623167032945,
+                "rawEndTime": 1623167033502,
+                "thinkTime": 0.0,
+                "wastedTime": 0.17147111892700196
+            },
+            {
+                "transactionName": "login",
+                "rawStartTime": 1623167033518,
+                "rawEndTime": 1623167033834,
+                "thinkTime": 0.0,
+                "wastedTime": 0.018883466720581056
+            },
+            {
+                "transactionName": "Itinerary",
+                "rawStartTime": 1623167033866,
+                "rawEndTime": 1623167034181,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009784460067749024
+            },
+            {
+                "transactionName": "Delete_a_few_flights",
+                "rawStartTime": 1623167034197,
+                "rawEndTime": 1623167034254,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "004_Delete_some_flights",
+                "rawStartTime": 1623167032930,
+                "rawEndTime": 1623167034254,
+                "thinkTime": 0.0,
+                "wastedTime": 0.20013904571533204
+            }
+        ]
+    }
+]

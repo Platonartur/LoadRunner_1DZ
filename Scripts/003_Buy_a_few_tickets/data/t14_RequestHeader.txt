@@ -1,0 +1,11 @@
+GET http://172.24.48.1:1080/cgi-bin/welcome.pl?signOff=1 HTTP/1.1
+Upgrade-Insecure-Requests: 1
+DNT: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=flights
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1623134975; MTUserInfo=firstName&Mark&username&jojo28&address2&Moscow&hash&120&address1&Moscow&lastName&Markovich%0A
+Host: 172.24.48.1:1080
+

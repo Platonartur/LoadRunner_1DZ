@@ -1,2 +1,0 @@
-"outboundFlight=03.06.2021+1%3A41%3A43&numPassengers=1&advanceDiscount=0&seatType=2021-06-03&se"
-"atPref=None&reserveFlights.x=72&reserveFlights.y=6"
