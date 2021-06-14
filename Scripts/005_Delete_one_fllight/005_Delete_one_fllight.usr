@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="005_Delete_one_flights__*delimiter*__link__*delimiter*__login__*delimiter*__Itinerary__*delimiter*__Delete_a_few_flights"
+Order="005_Delete_one_flights__*delimiter*__link__*delimiter*__login__*delimiter*__Itinerary__*delimiter*__Cancel"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -63,4 +63,4 @@ ActiveRunName=result1
 link=
 login=
 Itinerary=
-Delete_a_few_flights=
+Cancel=

@@ -1,5 +1,7 @@
 Action()
 {
+	int flight_count_before = 0;
+	int flight_count_after=0;
 	lr_start_transaction("004_Delete_some_flights");
 	lr_start_transaction("link");
 	
@@ -44,10 +46,10 @@ RuleName ='userSession'*/
 		web_reg_find("Text=Web Tours Navigation Bar",LAST);
 
 		web_url("nav.pl",
-       		"URL=http://172.24.48.1:1080/cgi-bin/nav.pl?in=home",
+       		"URL=http://172.23.64.1:1080/cgi-bin/nav.pl?in=home",
        		"Resource=0",
        		"RecContentType=text/html",
-       		"Referer=http://172.24.48.1:1080/cgi-bin/welcome.pl?SignOff=true",
+       		"Referer=http://172.23.64.1:1080/cgi-bin/welcome.pl?SignOff=true",
        		"Snapshot=t6.inf",
        		"Mode=HTTP", 
         	LAST);
@@ -64,7 +66,7 @@ RuleName ='userSession'*/
  		lr_start_transaction("login");
 
  		web_add_header("Origin", 
-  			"http://172.24.48.1:1080");
+  			"http://172.23.64.1:1080");
 
  		web_add_auto_header("Sec-Fetch-Site", 
   			"same-origin");
@@ -73,11 +75,11 @@ RuleName ='userSession'*/
  		web_reg_find("Text=User password was correct",LAST);
 
  		web_submit_data("login.pl",
-  			"Action=http://172.24.48.1:1080/cgi-bin/login.pl",
+  			"Action=http://172.23.64.1:1080/cgi-bin/login.pl",
   			"Method=POST",
   			"TargetFrame=body",
   			"RecContentType=text/html",
-  			"Referer=http://172.24.48.1:1080/cgi-bin/nav.pl?in=home",
+  			"Referer=http://172.23.64.1:1080/cgi-bin/nav.pl?in=home",
   			"Snapshot=t6.inf",
   			"Mode=HTML",
   			ITEMDATA,
@@ -97,38 +99,76 @@ RuleName ='userSession'*/
 	
 	web_reg_find("Text=Web Tours",LAST);
 
+	web_reg_save_param("flight_ID_origin",
+	                  "LB=name=\"flightID\" value=\"",
+	                  "RB=-", 
+	                  "Ord=ALL", 
+	                  LAST);
+
 	web_url("Itinerary Button", 
-		"URL=http://172.24.48.1:1080/cgi-bin/welcome.pl?page=itinerary", 
+		"URL=http://172.23.64.1:1080/cgi-bin/welcome.pl?page=itinerary", 
 		"TargetFrame=body", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=home", 
+		"Referer=http://172.23.64.1:1080/cgi-bin/nav.pl?page=menu&in=home", 
 		"Snapshot=t3.inf", 
 		"Mode=HTML", 
 		LAST);
 
 	lr_end_transaction("Itinerary",LR_AUTO);
+	
+	web_reg_save_param("flight_ID",
+	                  "LB=name=\"flightID\" value=\"",
+	                  "RB=-", 
+	                  "Ord=ALL", 
+	                  LAST);
+	
+	
 
 	lr_start_transaction("Delete_a_few_flights");
 
 	web_add_header("Origin", 
-		"http://172.24.48.1:1080");
+		"http://172.23.64.1:1080");
 
 	lr_think_time(54);
 	
 	
-	web_submit_form("itinerary.pl", 
-		"Snapshot=t10.inf", 
-		ITEMDATA, 
-		"Name=2", "Value=on", ENDITEM, 
-		"Name=3", "Value=on", ENDITEM, 		
-		"Name=5", "Value=on", ENDITEM, 	
-		"Name=removeFlights.x", "Value=87", ENDITEM, 
-		"Name=removeFlights.y", "Value=6", ENDITEM, 		
-		LAST);
+	
+	flight_count_before= atoi(lr_eval_string("{flight_ID_origin_count}"));
+	flight_count_after= atoi(lr_eval_string("{flight_ID_count}"));
+	
+	
+	
+	
+	
+	if(flight_count_before > 5){
+		if(flight_count_before > flight_count_after)
+		{
+			web_submit_form("itinerary.pl", 
+			"Snapshot=t10.inf", 
+			ITEMDATA, 
+			"Name=2", "Value=on", ENDITEM, 
+			"Name=3", "Value=on", ENDITEM, 		
+			"Name=5", "Value=on", ENDITEM, 	
+			"Name=removeFlights.x", "Value=87", ENDITEM, 
+			"Name=removeFlights.y", "Value=6", ENDITEM, 		
+			LAST);
+			lr_message("Успешное завершение транзакции");
+			lr_end_transaction("Delete_a_few_flights",LR_AUTO);
+		}
+		else
+		{
+			lr_error_message("Не успешное завершение транзакции");
+			lr_end_transaction("Delete_a_few_flights", LR_FAIL);
+		}
+	}
+	else
+	{
+		lr_error_message("Не успешное завершение транзакции");
+		lr_end_transaction("Delete_a_few_flights", LR_FAIL);
+	}
 
-
-	lr_end_transaction("Delete_a_few_flights",LR_AUTO);
+//	lr_end_transaction("Delete_a_few_flights", LR_AUTO);
 	
 	lr_end_transaction("004_Delete_some_flights",LR_AUTO);
 

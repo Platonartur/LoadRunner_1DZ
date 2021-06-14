@@ -1,4 +1,4 @@
-Virtual User Script started at: 08.06.2021 18:43:52
+Virtual User Script started at: 14.06.2021 16:42:06
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (янв 05 2021 19:27:22)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -9,82 +9,84 @@ Running Vuser...
 Starting iteration 1.
 Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
 Starting action Action.
-Action.c(3): Notify: Transaction "004_Delete_some_flights" started.
-Action.c(4): Notify: Transaction "link" started.
-Action.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
-Action.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-Action.c(10): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
-Action.c(10): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
-Action.c(13): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
-Action.c(13): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
-Action.c(16): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
-Action.c(16): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
-Action.c(19): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
-Action.c(19): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
-Action.c(22): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
-Action.c(22): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
-Action.c(34): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
-Action.c(34): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
-Action.c(44): web_reg_find started  	[MsgId: MMSG-26355]
-Action.c(44): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-Action.c(46): web_url("nav.pl") started  	[MsgId: MMSG-26355]
-Action.c(46): Registered web_reg_find successful for "Text=Web Tours Navigation Bar" (count=1)  	[MsgId: MMSG-26364]
-Action.c(46): web_url("nav.pl") was successful, 1449 body bytes, 256 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(55): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
-Action.c(55): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
-Action.c(55): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
-Action.c(57): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
-Action.c(57): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
-Action.c(60): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
-Action.c(60): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
-Action.c(60): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
-Action.c(62): Notify: Transaction "link" ended with a "Pass" status (Duration: 0,5569 Wasted Time: 0,1715).
-Action.c(64): Notify: Transaction "login" started.
-Action.c(66): web_add_header("Origin") started  	[MsgId: MMSG-26355]
-Action.c(66): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
-Action.c(69): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
-Action.c(69): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
-Action.c(73): web_reg_find started  	[MsgId: MMSG-26355]
-Action.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-Action.c(75): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
-Action.c(75): Detected non-resource "http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://172.24.48.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
-Action.c(75): Detected non-resource "http://172.24.48.1:1080/cgi-bin/login.pl?intro=true" in "http://172.24.48.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
-Action.c(75): Found resource "http://172.24.48.1:1080/WebTours/images/flights.gif" in HTML "http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-Action.c(75): Found resource "http://172.24.48.1:1080/WebTours/images/itinerary.gif" in HTML "http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-Action.c(75): Found resource "http://172.24.48.1:1080/WebTours/images/in_home.gif" in HTML "http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-Action.c(75): Found resource "http://172.24.48.1:1080/WebTours/images/signoff.gif" in HTML "http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-Action.c(75): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
-Action.c(75): web_submit_data("login.pl") was successful, 5781 body bytes, 2051 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(92): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,3158 Wasted Time: 0,0189).
-Action.c(96): Notify: Transaction "Itinerary" started.
-Action.c(98): web_reg_find started  	[MsgId: MMSG-26355]
-Action.c(98): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-Action.c(100): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
-Action.c(100): Detected non-resource "http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://172.24.48.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
-Action.c(100): Detected non-resource "http://172.24.48.1:1080/cgi-bin/itinerary.pl" in "http://172.24.48.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
-Action.c(100): Found resource "http://172.24.48.1:1080/WebTours/images/cancelreservation.gif" in HTML "http://172.24.48.1:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
-Action.c(100): Found resource "http://172.24.48.1:1080/WebTours/images/cancelallreservations.gif" in HTML "http://172.24.48.1:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
-Action.c(100): Resource "http://172.24.48.1:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Action.c(100): Found resource "http://172.24.48.1:1080/WebTours/images/in_itinerary.gif" in HTML "http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
-Action.c(100): Found resource "http://172.24.48.1:1080/WebTours/images/home.gif" in HTML "http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
-Action.c(100): Resource "http://172.24.48.1:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Action.c(100): Registered web_reg_find successful for "Text=Web Tours" (count=2)  	[MsgId: MMSG-26364]
-Action.c(100): web_url("Itinerary Button") was successful, 8678 body bytes, 1915 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(110): Notify: Transaction "Itinerary" ended with a "Pass" status (Duration: 0.3156 Wasted Time: 0.0098).
-Action.c(112): Notify: Transaction "Delete_a_few_flights" started.
-Action.c(114): web_add_header("Origin") started  	[MsgId: MMSG-26355]
-Action.c(114): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
-Action.c(120): web_submit_form("itinerary.pl") started  	[MsgId: MMSG-26355]
-Action.c(120): Error -27979: Requested form not found  	[MsgId: MERR-27979]
-Action.c(120): web_submit_form("itinerary.pl") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
-Action.c(120): Notify: Transaction "Delete_a_few_flights" ended with a "Fail" status (Duration: 0.0562).
-Action.c(120): Notify: Transaction "Delete_a_few_flights" has 1 error message(s).
-Action.c(120): Notify: The 1st error message associated with transaction "Delete_a_few_flights" is "Error -27979: Requested form not found"
-Action.c(120): Notify: Transaction "004_Delete_some_flights" ended with a "Fail" status (Duration: 1.3239 Wasted Time: 0.2001).
-Action.c(120): Notify: Transaction "004_Delete_some_flights" has 1 error message(s).
-Action.c(120): Notify: The 1st error message associated with transaction "004_Delete_some_flights" is "Error -27979: Requested form not found"
+Action.c(5): Notify: Transaction "004_Delete_some_flights" started.
+Action.c(6): Notify: Transaction "link" started.
+Action.c(8): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(8): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(12): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(15): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(15): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(18): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(18): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(21): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(21): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(24): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(24): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(36): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(36): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(46): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(48): web_url("nav.pl") started  	[MsgId: MMSG-26355]
+Action.c(48): Registered web_reg_find successful for "Text=Web Tours Navigation Bar" (count=1)  	[MsgId: MMSG-26364]
+Action.c(48): web_url("nav.pl") was successful, 1449 body bytes, 256 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(57): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(57): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+Action.c(57): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(59): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(59): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(62): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(62): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
+Action.c(62): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(64): Notify: Transaction "link" ended with a "Pass" status (Duration: 0.5057 Wasted Time: 0.1700).
+Action.c(66): Notify: Transaction "login" started.
+Action.c(68): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(68): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(71): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(71): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(75): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(75): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(77): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(77): Detected non-resource "http://172.23.64.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://172.23.64.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(77): Detected non-resource "http://172.23.64.1:1080/cgi-bin/login.pl?intro=true" in "http://172.23.64.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(77): Found resource "http://172.23.64.1:1080/WebTours/images/flights.gif" in HTML "http://172.23.64.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(77): Found resource "http://172.23.64.1:1080/WebTours/images/itinerary.gif" in HTML "http://172.23.64.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(77): Found resource "http://172.23.64.1:1080/WebTours/images/in_home.gif" in HTML "http://172.23.64.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(77): Found resource "http://172.23.64.1:1080/WebTours/images/signoff.gif" in HTML "http://172.23.64.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(77): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+Action.c(77): web_submit_data("login.pl") was successful, 5781 body bytes, 2051 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(94): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,2038 Wasted Time: 0,0131).
+Action.c(98): Notify: Transaction "Itinerary" started.
+Action.c(100): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(100): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(102): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(102): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(108): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
+Action.c(108): Detected non-resource "http://172.23.64.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://172.23.64.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Action.c(108): Detected non-resource "http://172.23.64.1:1080/cgi-bin/itinerary.pl" in "http://172.23.64.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Action.c(108): Resource "http://172.23.64.1:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(108): Found resource "http://172.23.64.1:1080/WebTours/images/in_itinerary.gif" in HTML "http://172.23.64.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Action.c(108): Found resource "http://172.23.64.1:1080/WebTours/images/home.gif" in HTML "http://172.23.64.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Action.c(108): Resource "http://172.23.64.1:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(108): Found resource "http://172.23.64.1:1080/WebTours/images/cancelreservation.gif" in HTML "http://172.23.64.1:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(108): Found resource "http://172.23.64.1:1080/WebTours/images/cancelallreservations.gif" in HTML "http://172.23.64.1:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(108): Registered web_reg_find successful for "Text=Web Tours" (count=2)  	[MsgId: MMSG-26364]
+Action.c(108): web_url("Itinerary Button") was successful, 9914 body bytes, 1915 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(118): Notify: Transaction "Itinerary" ended with a "Pass" status (Duration: 0.1751 Wasted Time: 0.0095).
+Action.c(120): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(120): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(128): Notify: Transaction "Delete_a_few_flights" started.
+Action.c(130): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(130): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(167): Error: Не успешное завершение транзакции
+Action.c(168): Notify: Transaction "Delete_a_few_flights" ended with a "Fail" status (Duration: 0.1113).
+Action.c(168): Notify: Transaction "Delete_a_few_flights" has 1 error message(s).
+Action.c(168): Notify: The 1st error message associated with transaction "Delete_a_few_flights" is "Error 0: Не успешное завершение транзакции"
+Action.c(173): Notify: Transaction "004_Delete_some_flights" ended with a "Fail" status (Duration: 1.1071 Wasted Time: 0.1926).
+Action.c(173): Notify: Transaction "004_Delete_some_flights" has 1 error message(s).
+Action.c(173): Notify: The 1st error message associated with transaction "004_Delete_some_flights" is "Error 0: Не успешное завершение транзакции"
 Ending action Action.
-Ending iteration 1.
+Error -27257: Pending web_reg_save_param/web_create_html_param/web_create_html_param_ex/web_reg_find request(s) detected and reset at the end of iteration number 1  	[MsgId: MERR-27257]
 Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.
