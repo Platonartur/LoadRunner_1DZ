@@ -2650,10 +2650,10 @@ Action()
 		web_reg_find("Text=Web Tours Navigation Bar","LAST");
 
 		web_url("nav.pl",
-       		"URL=http://172.24.48.1:1080/cgi-bin/nav.pl?in=home",
+       		"URL=http://172.23.64.1:1080/cgi-bin/nav.pl?in=home",
        		"Resource=0",
        		"RecContentType=text/html",
-       		"Referer=http://172.24.48.1:1080/cgi-bin/welcome.pl?SignOff=true",
+       		"Referer=http://172.23.64.1:1080/cgi-bin/welcome.pl?SignOff=true",
        		"Snapshot=t6.inf",
        		"Mode=HTTP", 
         	"LAST");
@@ -2670,7 +2670,7 @@ Action()
  		lr_start_transaction("login");
 
  		web_add_header("Origin", 
-  			"http://172.24.48.1:1080");
+  			"http://172.23.64.1:1080");
 
  		web_add_auto_header("Sec-Fetch-Site", 
   			"same-origin");
@@ -2679,11 +2679,11 @@ Action()
  		web_reg_find("Text=User password was correct","LAST");
 
  		web_submit_data("login.pl",
-  			"Action=http://172.24.48.1:1080/cgi-bin/login.pl",
+  			"Action=http://172.23.64.1:1080/cgi-bin/login.pl",
   			"Method=POST",
   			"TargetFrame=body",
   			"RecContentType=text/html",
-  			"Referer=http://172.24.48.1:1080/cgi-bin/nav.pl?in=home",
+  			"Referer=http://172.23.64.1:1080/cgi-bin/nav.pl?in=home",
   			"Snapshot=t6.inf",
   			"Mode=HTML",
   			"ITEMDATA",
@@ -2731,11 +2731,11 @@ Action()
 	web_reg_find("Text=Web Tours", "LAST");
 
 	web_url("Search Flights Button", 
-		"URL=http://172.24.48.1:1080/cgi-bin/welcome.pl?page=search", 
+		"URL=http://172.23.64.1:1080/cgi-bin/welcome.pl?page=search", 
 		"TargetFrame=body", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=home", 
+		"Referer=http://172.23.64.1:1080/cgi-bin/nav.pl?page=menu&in=home", 
 		"Snapshot=t7.inf", 
 		"Mode=HTML", 
 		"LAST");
@@ -2746,7 +2746,7 @@ Action()
 	lr_start_transaction("find_flight");
 
 	web_add_auto_header("Origin", 
-		"http://172.24.48.1:1080");
+		"http://172.23.64.1:1080");
 
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
@@ -2767,11 +2767,11 @@ Action()
 	web_reg_find("Text=Flight Selections","LAST");
 
 	web_submit_data("reservations.pl", 
-		"Action=http://172.24.48.1:1080/cgi-bin/reservations.pl", 
+		"Action=http://172.23.64.1:1080/cgi-bin/reservations.pl", 
 		"Method=POST", 
 		"TargetFrame=", 
 		"RecContentType=text/html", 
-		"Referer=http://172.24.48.1:1080/cgi-bin/reservations.pl?page=welcome", 
+		"Referer=http://172.23.64.1:1080/cgi-bin/reservations.pl?page=welcome", 
 		"Snapshot=t11.inf", 
 		"Mode=HTML", 
 		"ITEMDATA", 
@@ -2799,11 +2799,11 @@ Action()
 	web_reg_find("Text=Flight Reservation", "LAST");
 
 	web_submit_data("reservations.pl_2",
-		"Action=http://172.24.48.1:1080/cgi-bin/reservations.pl",
+		"Action=http://172.23.64.1:1080/cgi-bin/reservations.pl",
 		"Method=POST",
 		"TargetFrame=",
 		"RecContentType=text/html",
-		"Referer=http://172.24.48.1:1080/cgi-bin/reservations.pl",
+		"Referer=http://172.23.64.1:1080/cgi-bin/reservations.pl",
 		"Snapshot=t12.inf",
 		"Mode=HTML",
 		"ITEMDATA",
@@ -2825,7 +2825,7 @@ Action()
 	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
 
 	web_add_header("Origin", 
-		"http://172.24.48.1:1080");
+		"http://172.23.64.1:1080");
 
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
@@ -2835,11 +2835,11 @@ Action()
 	web_reg_find("Text=Reservation Made!", "LAST");
 
 	web_submit_data("reservations.pl_3",
-		"Action=http://172.24.48.1:1080/cgi-bin/reservations.pl",
+		"Action=http://172.23.64.1:1080/cgi-bin/reservations.pl",
 		"Method=POST",
 		"TargetFrame=",
 		"RecContentType=text/html",
-		"Referer=http://172.24.48.1:1080/cgi-bin/reservations.pl",
+		"Referer=http://172.23.64.1:1080/cgi-bin/reservations.pl",
 		"Snapshot=t13.inf",
 		"Mode=HTML",
 		"ITEMDATA",
@@ -2873,11 +2873,11 @@ Action()
 	lr_start_transaction("sign_off");
 
 	web_url("SignOff Button", 
-		"URL=http://172.24.48.1:1080/cgi-bin/welcome.pl?signOff=1", 
+		"URL=http://172.23.64.1:1080/cgi-bin/welcome.pl?signOff=1", 
 		"TargetFrame=body", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://172.24.48.1:1080/cgi-bin/nav.pl?page=menu&in=flights", 
+		"Referer=http://172.23.64.1:1080/cgi-bin/nav.pl?page=menu&in=flights", 
 		"Snapshot=t14.inf", 
 		"Mode=HTML", 
 		"LAST");
