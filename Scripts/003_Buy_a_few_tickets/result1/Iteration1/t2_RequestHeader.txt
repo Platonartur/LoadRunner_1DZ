@@ -1,5 +1,5 @@
 GET /cgi-bin/nav.pl?in=home HTTP/1.1
-Referer: http://172.23.64.1:1080/cgi-bin/welcome.pl?SignOff=true
+Referer: http://172.24.128.1:1080/cgi-bin/welcome.pl?SignOff=true
 Sec-Fetch-Site: none
 Sec-Fetch-Dest: document
 Sec-Fetch-Mode: navigate
@@ -10,5 +10,5 @@ Accept-Encoding: gzip, deflate
 Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
 Accept: */*
 Connection: Keep-Alive
-Host: 172.23.64.1:1080
+Host: 172.24.128.1:1080
 

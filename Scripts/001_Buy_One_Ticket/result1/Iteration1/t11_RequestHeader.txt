@@ -1,5 +1,5 @@
 GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1
-Referer: http://172.23.64.1:1080/cgi-bin/nav.pl?page=menu&in=flights
+Referer: http://172.24.128.1:1080/cgi-bin/nav.pl?page=menu&in=flights
 Sec-Fetch-Site: same-origin
 Sec-Fetch-Dest: frame
 Sec-Fetch-Mode: navigate
@@ -8,6 +8,6 @@ User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
 Accept-Encoding: gzip, deflate
 Accept: */*
 Connection: Keep-Alive
-Host: 172.23.64.1:1080
-Cookie: MTUserInfo=firstName&jojo&username&jojo21&address2&Moscow&hash&113&address1&Moscow&lastName&jojo%0A
+Host: 172.24.128.1:1080
+Cookie: MTUserInfo=firstName&Bob&username&jojo21&address2&Moscow&hash&113&address1&Moscow&lastName&Bobovich%0A
 

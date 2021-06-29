@@ -6,62 +6,62 @@
                 "stepId": "STEP1",
                 "stepName": "Url: nav.pl",
                 "infFile": "t2.inf",
-                "time": 1623698703703
+                "time": 1624002905961
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Submit Data: login.pl",
                 "infFile": "t3.inf",
-                "time": 1623698703962
+                "time": 1624002906311
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Url: Itinerary Button",
                 "infFile": "t4.inf",
-                "time": 1623698710240
+                "time": 1624002906555
             },
             {
                 "stepId": "STEP4",
                 "stepName": "Submit Form: itinerary.pl",
                 "infFile": "t5.inf",
-                "time": 1623698764458
+                "time": 1624002906779
             }
         ],
         "transactions": [
             {
                 "transactionName": "link",
-                "rawStartTime": 1623698703379,
-                "rawEndTime": 1623698703761,
+                "rawStartTime": 1624002905570,
+                "rawEndTime": 1624002906015,
                 "thinkTime": 0.0,
-                "wastedTime": 0.1150968074798584
+                "wastedTime": 0.18128156661987306
             },
             {
                 "transactionName": "login",
-                "rawStartTime": 1623698703778,
-                "rawEndTime": 1623698703998,
+                "rawStartTime": 1624002906032,
+                "rawEndTime": 1624002906315,
                 "thinkTime": 0.0,
-                "wastedTime": 0.01133418083190918
+                "wastedTime": 0.015813350677490236
             },
             {
                 "transactionName": "Itinerary",
-                "rawStartTime": 1623698710040,
-                "rawEndTime": 1623698710245,
+                "rawStartTime": 1624002906346,
+                "rawEndTime": 1624002906562,
                 "thinkTime": 0.0,
-                "wastedTime": 0.006737947463989258
+                "wastedTime": 0.009399890899658203
             },
             {
                 "transactionName": "Delete_a_few_flights",
-                "rawStartTime": 1623698710278,
-                "rawEndTime": 1623698764486,
-                "thinkTime": 54.005296,
-                "wastedTime": 0.005414247512817383
+                "rawStartTime": 1624002906594,
+                "rawEndTime": 1624002906801,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006717205047607422
             },
             {
                 "transactionName": "004_Delete_some_flights",
-                "rawStartTime": 1623698703364,
-                "rawEndTime": 1623698764517,
-                "thinkTime": 60.016156,
-                "wastedTime": 0.13858318328857423
+                "rawStartTime": 1624002905556,
+                "rawEndTime": 1624002906832,
+                "thinkTime": 0.0,
+                "wastedTime": 0.2132120132446289
             }
         ]
     }

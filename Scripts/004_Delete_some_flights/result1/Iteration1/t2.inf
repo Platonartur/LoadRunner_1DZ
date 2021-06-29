@@ -9,5 +9,5 @@ ResponseHeaderFile=t2_ResponseHeader.txt
 RawStepEndTime=0
 RawStepName=nav.pl
 RequestBodyFile=t2_RequestBody.txt
-RawStepStartTime=1623698703524
-URL1=http://172.23.64.1:1080/cgi-bin/nav.pl?in=home
+RawStepStartTime=1624002905730
+URL1=http://172.24.128.1:1080/cgi-bin/nav.pl?in=home

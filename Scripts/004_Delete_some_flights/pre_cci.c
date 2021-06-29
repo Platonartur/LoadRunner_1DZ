@@ -2609,7 +2609,7 @@ vuser_init()
 Action()
 {
 	int flight_count_before = 0;
-	int flight_count_after=0;
+	int flight_count_after = 0;
 	lr_start_transaction("004_Delete_some_flights");
 	lr_start_transaction("link");
 	
@@ -2654,10 +2654,10 @@ Action()
 		web_reg_find("Text=Web Tours Navigation Bar","LAST");
 
 		web_url("nav.pl",
-       		"URL=http://172.23.64.1:1080/cgi-bin/nav.pl?in=home",
+       		"URL=http://172.24.128.1:1080/cgi-bin/nav.pl?in=home",
        		"Resource=0",
        		"RecContentType=text/html",
-       		"Referer=http://172.23.64.1:1080/cgi-bin/welcome.pl?SignOff=true",
+       		"Referer=http://172.24.128.1:1080/cgi-bin/welcome.pl?SignOff=true",
        		"Snapshot=t6.inf",
        		"Mode=HTTP", 
         	"LAST");
@@ -2674,7 +2674,7 @@ Action()
  		lr_start_transaction("login");
 
  		web_add_header("Origin", 
-  			"http://172.23.64.1:1080");
+  			"http://172.24.128.1:1080");
 
  		web_add_auto_header("Sec-Fetch-Site", 
   			"same-origin");
@@ -2683,11 +2683,11 @@ Action()
  		web_reg_find("Text=User password was correct","LAST");
 
  		web_submit_data("login.pl",
-  			"Action=http://172.23.64.1:1080/cgi-bin/login.pl",
+  			"Action=http://172.24.128.1:1080/cgi-bin/login.pl",
   			"Method=POST",
   			"TargetFrame=body",
   			"RecContentType=text/html",
-  			"Referer=http://172.23.64.1:1080/cgi-bin/nav.pl?in=home",
+  			"Referer=http://172.24.128.1:1080/cgi-bin/nav.pl?in=home",
   			"Snapshot=t6.inf",
   			"Mode=HTML",
   			"ITEMDATA",
@@ -2714,11 +2714,11 @@ Action()
 	                  "LAST");
 
 	web_url("Itinerary Button", 
-		"URL=http://172.23.64.1:1080/cgi-bin/welcome.pl?page=itinerary", 
+		"URL=http://172.24.128.1:1080/cgi-bin/welcome.pl?page=itinerary", 
 		"TargetFrame=body", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://172.23.64.1:1080/cgi-bin/nav.pl?page=menu&in=home", 
+		"Referer=http://172.24.128.1:1080/cgi-bin/nav.pl?page=menu&in=home", 
 		"Snapshot=t3.inf", 
 		"Mode=HTML", 
 		"LAST");
@@ -2736,7 +2736,7 @@ Action()
 	lr_start_transaction("Delete_a_few_flights");
 
 	web_add_header("Origin", 
-		"http://172.23.64.1:1080");
+		"http://172.24.128.1:1080");
 
 	lr_think_time(54);
 	

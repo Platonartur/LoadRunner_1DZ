@@ -5,7 +5,7 @@ Action()
 	int i;
 	int j;
 	
-	lr_start_transaction("005_Delete_one_flights");
+	lr_start_transaction("005_Delete_one_flight");
 	lr_start_transaction("link");
 	
 	web_set_sockets_option("SSL_VERSION", "AUTO");
@@ -237,7 +237,7 @@ RuleName ='userSession'*/
 
 //	lr_end_transaction("Delete_a_few_flights",LR_AUTO);
 	
-	lr_end_transaction("005_Delete_one_flights",LR_AUTO);
+	lr_end_transaction("005_Delete_one_flight",LR_AUTO);
 
 	
 

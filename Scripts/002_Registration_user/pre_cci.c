@@ -2609,9 +2609,9 @@ Action()
 	
 	lr_start_transaction("link");
 
-	web_add_cookie("MSO=SID&1623091512; DOMAIN=172.23.64.1");
+	web_add_cookie("MSO=SID&1623091512; DOMAIN=172.24.128.1");
 
-	web_add_cookie("MTUserInfo=firstName&jojo&address2&Moscow&username&jojo21&hash&113&lastName&jojo%0A&address1&Moscow&creditCard&&expDate&%0A; DOMAIN=172.23.64.1");
+	web_add_cookie("MTUserInfo=firstName&jojo&address2&Moscow&username&jojo21&hash&113&lastName&jojo%0A&address1&Moscow&creditCard&&expDate&%0A; DOMAIN=172.24.128.1");
 
 	web_add_auto_header("DNT", 
 		"1");
@@ -2622,11 +2622,11 @@ Action()
 	web_reg_find("Text=Web Tours", "LAST");
 	
 	web_url("welcome.pl", 
-		"URL=http://172.23.64.1:1080/cgi-bin/welcome.pl?signOff=true", 
+		"URL=http://172.24.128.1:1080/cgi-bin/welcome.pl?signOff=true", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://172.23.64.1:1080/WebTours/", 
+		"Referer=http://172.24.128.1:1080/WebTours/", 
 		"Snapshot=t1.inf", 
 		"Mode=HTML", 
 		"LAST");
@@ -2639,17 +2639,17 @@ Action()
 
 	lr_start_transaction("sign_up_now");
 
-	web_add_cookie("MSO=SID&1623093240; DOMAIN=172.23.64.1");
+	web_add_cookie("MSO=SID&1623093240; DOMAIN=172.24.128.1");
 
 	lr_think_time(7);
 	
 
 	web_url("login.pl", 
-		"URL=http://172.23.64.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true", 
+		"URL=http://172.24.128.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true", 
 		"TargetFrame=body", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://172.23.64.1:1080/WebTours/home.html", 
+		"Referer=http://172.24.128.1:1080/WebTours/home.html", 
 		"Snapshot=t2.inf", 
 		"Mode=HTML", 
 		"LAST");
@@ -2674,18 +2674,18 @@ Action()
 	lr_start_transaction("customer_profile");
 
 	web_add_auto_header("Origin", 
-		"http://172.23.64.1:1080");
+		"http://172.24.128.1:1080");
 
 	lr_think_time(8);
 	
 	web_reg_find("Text=User Information", "LAST");
 	
 	web_submit_data("login.pl_2", 
-		"Action=http://172.23.64.1:1080/cgi-bin/login.pl", 
+		"Action=http://172.24.128.1:1080/cgi-bin/login.pl", 
 		"Method=POST", 
 		"TargetFrame=info", 
 		"RecContentType=text/html", 
-		"Referer=http://172.23.64.1:1080/cgi-bin/login.pl", 
+		"Referer=http://172.24.128.1:1080/cgi-bin/login.pl", 
 		"Snapshot=t8.inf", 
 		"Mode=HTML", 
 		"ITEMDATA", 
@@ -2705,11 +2705,11 @@ Action()
 	lr_think_time(5);
 
 	web_url("button_next.gif", 
-		"URL=http://172.23.64.1:1080/cgi-bin/welcome.pl?page=menus", 
+		"URL=http://172.24.128.1:1080/cgi-bin/welcome.pl?page=menus", 
 		"TargetFrame=body", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://172.23.64.1:1080/cgi-bin/login.pl", 
+		"Referer=http://172.24.128.1:1080/cgi-bin/login.pl", 
 		"Snapshot=t9.inf", 
 		"Mode=HTML", 
 		"LAST");
@@ -2724,11 +2724,11 @@ Action()
 	web_reg_find("Text=Web Tours","LAST");
 
 	web_url("SignOff Button", 
-		"URL=http://172.23.64.1:1080/cgi-bin/welcome.pl?signOff=1", 
+		"URL=http://172.24.128.1:1080/cgi-bin/welcome.pl?signOff=1", 
 		"TargetFrame=body", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://172.23.64.1:1080/cgi-bin/nav.pl?page=menu&in=home", 
+		"Referer=http://172.24.128.1:1080/cgi-bin/nav.pl?page=menu&in=home", 
 		"Snapshot=t13.inf", 
 		"Mode=HTML", 
 		"LAST");

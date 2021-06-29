@@ -1,8 +1,8 @@
 POST /cgi-bin/reservations.pl HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 Cache-Control: no-cache
-Referer: http://172.23.64.1:1080/cgi-bin/reservations.pl
-Origin: http://172.23.64.1:1080
+Referer: http://172.24.128.1:1080/cgi-bin/reservations.pl
+Origin: http://172.24.128.1:1080
 Sec-Fetch-Site: same-origin
 Sec-Fetch-Dest: frame
 Sec-Fetch-Mode: navigate
@@ -10,7 +10,7 @@ User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
 Accept-Encoding: gzip, deflate
 Accept: */*
 Connection: Keep-Alive
-Host: 172.23.64.1:1080
-Cookie: MTUserInfo=firstName&jojo&address2&Moscow&username&jojo21&hash&113&lastName&jojo%0A&address1&Moscow&creditCard&&expDate&%0A
+Host: 172.24.128.1:1080
+Cookie: MTUserInfo=firstName&Bob&address2&Moscow&username&jojo21&hash&113&lastName&Bobovich%0A&address1&Moscow&creditCard&&expDate&%0A
 Content-Length: 305
 
