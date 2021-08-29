@@ -1,1 +1,2 @@
 print("ty")
+print("tyaoy")
